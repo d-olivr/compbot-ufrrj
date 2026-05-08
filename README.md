@@ -75,9 +75,10 @@ npm start
 
 ```
 compbot-ufrrj/
+├── data/               # pdf files 
 ├── src/
-│   ├── chatbot.py            
-│   ├── .env                 
+│   ├── bot.py          # core bot logic    
+│   ├── .env.example    # environment variable (API TOKEN)                 
 │   └── .gitignore          
 └── README.md
 ```
