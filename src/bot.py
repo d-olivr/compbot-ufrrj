@@ -45,6 +45,41 @@ def callback_ajuda(call):
 
     bot.send_message(call.message.chat.id, 'Em que posso te ajudar?', reply_markup=markup_ajuda)
 
+@bot.callback_query_handler(func=lambda call: call.data == "requisitos-materia")
+def callback_requisitos_materia(call):
+    resposta = "Para puxar uma matéria, você precisa ter cursado e sido aprovado em todas as matérias pré-requisitos listadas no SIGAA. Além disso, é necessário que haja vagas disponíveis na turma que deseja se matricular."
+    bot.send_message(call.message.chat.id, resposta)
+
+@bot.callback_query_handler(func=lambda call: call.data == "calendario-matricula")
+def callback_calendario_matricula(call):
+
+    resposta = (
+        "📅 O calendário de matrícula do SIGAA é divulgado periodicamente."
+        "Algumas datas importantes de *2026.2* são:\n\n"
+        "• Cadastro de Turmas: 13/05 até 06/07\n"
+        "• Matrícula OnLine (Pré-Matrícula): 17/07 até 26/07\n"
+        "• Ajustes das Matrículas (1ª fase): 27/07\n"
+        "• Re-Matrícula (2ª fase): 30/07 até 05/08\n\n"
+        "➡️ Confira o calendário completo abaixo:"
+    )
+    
+    # envia a mensagem de texto separada
+    bot.send_message(call.message.chat.id, resposta)
+    
+    # envia o PDF logo em seguida
+    caminho_pdf = "data/calendario-matriculas-2026-2.pdf" 
+    
+    try: # vai tentar abrir o arquivo PDF, se não encontrar, envia uma mensagem de erro para o usuario
+        with open(caminho_pdf, 'rb') as pdf: # 'rb' = read binary 
+            bot.send_document(
+                call.message.chat.id, # envia o pdf para o mesmo chat onde o usuario clicou no botao
+                pdf, # o arquivo pdf em si
+                caption="Calendário Acadêmico 2026.2 - UFRRJ"
+            )
+    except FileNotFoundError:# exceção caso o pdf nao seja encontrado no caminho especificado
+        bot.send_message(call.message.chat.id, "Erro: Desculpe, arquivo .pdf não disponível.")
+
+
 
 print("Bot rodando...")
-bot.polling()
+bot.infinity_polling() 
