@@ -1,10 +1,16 @@
 # 🎓 CompBot UFRRJ — Academic Chatbot
 
-Academic advisor chatbot for the Computer Science program at UFRRJ — helping students navigate prerequisites, course selection, and semester planning
+Academic advisor chatbot for the Computer Science program at UFRRJ — helping students navigate prerequisites, course selection, and semester planning.
 
 ## 📌 About
-
-**CompBot UFRRJ** is a chatbot designed to support students of the Computer Science program at the *Universidade Federal Rural do Rio de Janeiro (UFRRJ)*. It helps students make informed decisions about course enrollment, understand prerequisite chains, plan their semester, and stay on track toward graduation.
+<div align="center">
+  <p>
+    <b>CompBot UFRRJ</b> is a chatbot designed to support students of the Computer Science program at the Universidade Federal Rural do Rio de Janeiro (UFRRJ). It helps students make informed decisions about course enrollment, understand prerequisite chains, plan their     semester, and stay on track toward graduation.
+  </p>
+  <img width="340" alt="capybara" 
+    src="https://github.com/user-attachments/assets/9f85f5a5-5bd1-4cce-9402-a787133cd2bb"
+  />
+</div>
 
 ---
 
