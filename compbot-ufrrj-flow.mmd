@@ -1,8 +1,20 @@
 ---
 config:
-  layout: dagre
+  layout: elk
 ---
 flowchart TB
     A["Bem vindo ao CompBot! Escolha uma opção:"] --> n2["Quero ajuda"] & n4["Ver no Github"]
+    n2 --> n5["Em que posso te ajudar?"]
+    n5 --> n6["Requisitos para puxar matéria"] & n7["Entendendo melhor uma disciplina"]
+    n7 --> n9["A gente pode te dar algumas informações sobre as matérias. Navegue pelos períodos:"]
+    n9 --> n10["1o Período"] & n11["2o Período"]
+    n10 --> n12["PE"] & n13["GA"] & n14["MD"] & n15["CD"] & n16["ICC"]
+    n12 --> n17["Em Programação Estruturada você aprende..."]
+    n21["LEGENDA:"] --> n20["Botão"] & n19["Texto exibido na tela"]
 
+    n21@{ shape: rounded}
     style A fill:#C8E6C9
+    style n5 color:#000000,stroke:#000000,fill:#C8E6C9
+    style n9 stroke:#000000,fill:#C8E6C9
+    style n17 fill:#C8E6C9
+    style n19 fill:#C8E6C9
