@@ -173,13 +173,13 @@ Contributions are welcome! If you are a UFRRJ student or just want to help impro
 4. Push to the branch (`git push origin feature/my-feature`)
 5. Open a Pull Request
 
-## 👥 Team
+## 👥 Collaborators
 
-Built by a college research team as part of an undergraduate research program (*Iniciação Científica*) at **UFRRJ - Universidade Federal Rural do Rio de Janeiro**.
+Built as part of an undergraduate research program (*Iniciação Científica*) at **UFRRJ - Universidade Federal Rural do Rio de Janeiro**.
 
 <div align="center">
-  <a href="https://github.com/d-olivr/ai-educational-assistant/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=d-olivr/ai-educational-assistant" />
+  <a href="https://github.com/d-olivr/compbot-ufrrj/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=d-olivr/compbot-ufrrj" />
   </a>
 </div>
 
