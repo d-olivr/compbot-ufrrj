@@ -60,7 +60,7 @@ flowchart TB
     WELCOME["Bem-vindo ao CompBot!\nEscolha uma opção:"] --> BTN_AJUDA["Quero ajuda"] & BTN_GITHUB["Ver no Github"]
     BTN_GITHUB --> GITHUB_LINK["Abre repositório 🔗"]
     BTN_AJUDA --> EM_QUE["Em que posso te ajudar?"]
-    EM_QUE --> BTN_REQ["Requisitos para\npuxar matéria"] & BTN_DISC["Entendendo melhor\numa disciplina"] & BTN_CAL["Calendário\nAcadêmico"]
+    EM_QUE --> BTN_REQ["Requisitos para\npuxar matéria"] & BTN_DISC["Entendendo melhor\numa disciplina"] & BTN_CAL["Calendário\nAcadêmico"] & BTN_ANA["Análise via histórico"]
     BTN_REQ --> INFO_REQ["Exibe informações\nsobre pré-requisitos"]
     BTN_DISC --> NAV_PER["Navegue pelos períodos para acessar as matérias:"]
     NAV_PER --> PER1["1º Período"] & PER2["2º Período"] & PER_N["... (nº)"] & n3["↩ Voltar"]
@@ -70,6 +70,9 @@ flowchart TB
     INFO_PE --> BTN_PLAY["Playlist indicada"] & n5["↩ Voltar"]
     INFO_CAL["Exibe calendário\ndo semestre"] --> PDF_CAL["Envia .pdf do calendário"]
     BTN_CAL --> INFO_CAL
+    BTN_ANA --> INFO_ANA["Por favor, envie o seu arquivo PDF do histórico acadêmico."]
+    INFO_ANA --> RECEBIDO["O .pdf é recebido"]
+    RECEBIDO --> ANALISE["Análise"]
 
      L_BTN:::botao
      L_TXT:::texto
@@ -82,6 +85,7 @@ flowchart TB
      BTN_REQ:::botao
      BTN_DISC:::botao
      BTN_CAL:::botao
+     BTN_ANA:::botao
      INFO_REQ:::texto
      NAV_PER:::texto
      PER1:::botao
@@ -101,6 +105,9 @@ flowchart TB
      n5:::neutro
      INFO_CAL:::texto
      PDF_CAL:::neutro
+     INFO_ANA:::texto
+     RECEBIDO:::neutro
+     ANALISE:::texto
     classDef botao fill:#FDFBF0,stroke:#C8C49A,color:#3D3A1E
     classDef texto fill:#0F6E56,stroke:#085041,color:#E1F5EE
     classDef neutro fill:#5F5E5A,stroke:#444441,color:#F1EFE8
