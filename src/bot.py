@@ -118,10 +118,12 @@ def callback_ajuda(call):
     markup_ajuda.add(
         types.InlineKeyboardButton("🔬 Requisitos para puxar uma disciplina", callback_data="requisitos-materia"),
         types.InlineKeyboardButton("📚 Dicas das disciplinas", callback_data="dicas-disciplina"),
-        types.InlineKeyboardButton("📅 Calendário de matrícula", callback_data="calendario-matricula")
+        types.InlineKeyboardButton("📅 Calendário Acadêmico", callback_data="calendario-academico"),
+        types.InlineKeyboardButton("📄 Análise via Histórico", callback_data="analise-historico")
     )
     bot.edit_message_text('Em que posso te ajudar?', call.message.chat.id, call.message.message_id, reply_markup=markup_ajuda)
 
+# REQUISITOS PARA PUXAR UMA DISCIPLINA
 @bot.callback_query_handler(func=lambda call: call.data == "requisitos-materia")
 def callback_requisitos_materia(call):
     bot.answer_callback_query(call.id)
@@ -129,8 +131,9 @@ def callback_requisitos_materia(call):
     markup = types.InlineKeyboardMarkup().add(types.InlineKeyboardButton("⬅️ Voltar", callback_data="ajuda"))
     bot.edit_message_text(resposta, call.message.chat.id, call.message.message_id, reply_markup=markup)
 
-@bot.callback_query_handler(func=lambda call: call.data == "calendario-matricula")
-def callback_calendario_matricula(call):
+# CALENDÁRIO ACADEMICO
+@bot.callback_query_handler(func=lambda call: call.data == "calendario-academico")
+def callback_calendario_academico(call):
     bot.answer_callback_query(call.id)
     
     texto = (
@@ -154,12 +157,65 @@ def callback_calendario_matricula(call):
     except FileNotFoundError:
         bot.send_message(call.message.chat.id, "⚠️ PDF não disponível no momento.")
 
+# DICAS DAS DISCIPLINAS
 @bot.callback_query_handler(func=lambda call: call.data == "dicas-disciplina")
 def callback_dicas_disciplina(call):
     bot.answer_callback_query(call.id)
     bot.edit_message_text("Navegue pelos períodos para acessar as matérias:", call.message.chat.id, call.message.message_id, reply_markup=menu_periodos())
 
+# ANÁLISE DE HISTÓRICO 
+@bot.callback_query_handler(func=lambda call: call.data == "analise-historico")
+def callback_analise_historico(call):
+    bot.answer_callback_query(call.id)
+    
+    msg = bot.edit_message_text(
+        "📄 **Análise via Histórico**\n\nPor favor, envie o seu arquivo PDF do histórico acadêmico obtido pelo SIGAA.",
+        call.message.chat.id,
+        call.message.message_id,
+        parse_mode="Markdown"
+    )
+    
+    bot.register_next_step_handler(msg, processar_upload_historico)
 
+def processar_upload_historico(message):
+    if message.content_type != 'document' or message.document.mime_type != 'application/pdf':
+        bot.reply_to(message, "❌ Isso não parece um PDF. Operação cancelada.")
+        return
 
+    bot.reply_to(message, "Recebi! Analisando seu histórico...")
+
+    try:
+        # baixa arquivo
+        file_info = bot.get_file(message.document.file_id)
+        downloaded_file = bot.download_file(file_info.file_path)
+        
+        # salva localmente para processamento
+        caminho_local = "historico_temporario.pdf"
+        with open(caminho_local, 'wb') as f:
+            f.write(downloaded_file)
+        
+        # processamento.py
+        from processamento import extrair_texto_pdf
+        texto_extraido = extrair_texto_pdf(caminho_local)
+
+        if texto_extraido:
+            # apenas 3000 primeiros caracteres
+            texto_final = texto_extraido[:3000] 
+
+            msg_resultado = (
+                "✅ **Análise concluída!**\n\n"
+                "Conteúdo extraído:\n\n"
+                f"```text\n{texto_final}\n```"
+            )
+            bot.send_message(message.chat.id, msg_resultado, parse_mode="Markdown")
+        else:
+            bot.send_message(message.chat.id, "⚠️ O PDF parece estar vazio ou protegido.")
+            
+    except Exception as e:
+        # Imprime o erro real no terminal para você ver
+        print(f"ERRO NO DOWNLOAD/PROCESSAMENTO: {e}")
+        bot.send_message(message.chat.id, "❌ Erro interno ao processar o arquivo.")
+
+# ------------------ INICIALIZAÇÃO DO BOT -----------------
 print("Bot rodando...")
 bot.infinity_polling()
