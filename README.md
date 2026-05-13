@@ -7,6 +7,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.13.5-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![pyTelegramBotAPI](https://img.shields.io/badge/pyTelegramBotAPI-4.33-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://github.com/eternnoir/pyTelegramBotAPI)
+[![PyMuPDF](https://img.shields.io/badge/PyMuPDF-1.27.2.3-CC2936?style=flat-square&logo=artifexsoftware&logoColor=white)](https://pymupdf.readthedocs.io)
 [![Status](https://img.shields.io/badge/Status-In_Development-brightgreen?style=flat-square)]()
 
 <img width="250" alt="capybara" 
