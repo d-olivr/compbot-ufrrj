@@ -2,6 +2,7 @@ import os
 import telebot
 from telebot import types
 from dotenv import load_dotenv
+from leitura_tabela import extrair_tabelas_sigaa
 
 # carrega token do .env
 load_dotenv()
@@ -178,43 +179,46 @@ def callback_analise_historico(call):
     bot.register_next_step_handler(msg, processar_upload_historico)
 
 def processar_upload_historico(message):
+    # VERIFICAÇÃO ARQUIVO
     if message.content_type != 'document' or message.document.mime_type != 'application/pdf':
-        bot.reply_to(message, "❌ Isso não parece um PDF. Operação cancelada.")
+        bot.reply_to(message, "❌ Isso não parece um arquivo PDF. Operação cancelada.")
         return
 
-    bot.reply_to(message, "Recebi! Analisando seu histórico...")
+    bot.reply_to(message, "📥 Recebi o PDF! Processando as tabelas, isso pode levar alguns segundos...")
 
     try:
-        # baixa arquivo
         file_info = bot.get_file(message.document.file_id)
         downloaded_file = bot.download_file(file_info.file_path)
         
-        # salva localmente para processamento
-        caminho_local = "historico_temporario.pdf"
+        caminho_local = f"historico_{message.chat.id}.pdf"
         with open(caminho_local, 'wb') as f:
             f.write(downloaded_file)
         
-        # processamento.py
-        from processamento import extrair_texto_pdf
-        texto_extraido = extrair_texto_pdf(caminho_local)
+        arquivo_csv, arquivo_xlsx = extrair_tabelas_sigaa(caminho_local)
 
-        if texto_extraido:
-            # apenas 3000 primeiros caracteres
-            texto_final = texto_extraido[:3000] 
-
-            msg_resultado = (
-                "✅ **Análise concluída!**\n\n"
-                "Conteúdo extraído:\n\n"
-                f"```text\n{texto_final}\n```"
-            )
-            bot.send_message(message.chat.id, msg_resultado, parse_mode="Markdown")
+        if arquivo_csv and arquivo_xlsx:
+            bot.send_message(message.chat.id, "✅ **Histórico extraído com sucesso!** Aqui estão os seus arquivos:")
+            
+            # EXEL
+            with open(arquivo_xlsx, 'rb') as doc_xlsx:
+                bot.send_document(message.chat.id, doc_xlsx)
+                
+            # CSV
+            with open(arquivo_csv, 'rb') as doc_csv:
+                bot.send_document(message.chat.id, doc_csv)
+            
+            # Faxina! LIMPA ARQUIVOS DA MAQUINA
+            os.remove(caminho_local)
+            os.remove(arquivo_csv)
+            os.remove(arquivo_xlsx)
+            
         else:
-            bot.send_message(message.chat.id, "⚠️ O PDF parece estar vazio ou protegido.")
+            bot.send_message(message.chat.id, "⚠️ Não consegui encontrar nenhuma tabela reconhecível neste PDF.")
+            os.remove(caminho_local)
             
     except Exception as e:
-        # Imprime o erro real no terminal para você ver
-        print(f"ERRO NO DOWNLOAD/PROCESSAMENTO: {e}")
-        bot.send_message(message.chat.id, "❌ Erro interno ao processar o arquivo.")
+        print(f"ERRO NO PROCESSAMENTO DO PDF: {e}")
+        bot.send_message(message.chat.id, "❌ Ocorreu um erro interno ao tentar ler o histórico.")
 
 # ------------------ INICIALIZAÇÃO DO BOT -----------------
 print("Bot rodando...")
