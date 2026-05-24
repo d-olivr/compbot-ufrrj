@@ -3,6 +3,7 @@ import telebot
 from telebot import types
 from dotenv import load_dotenv
 from leitura_tabela import extrair_tabelas_sigaa
+from datetime import datetime
 
 # carrega token do .env
 load_dotenv()
@@ -136,6 +137,7 @@ def callback_requisitos_materia(call):
 @bot.callback_query_handler(func=lambda call: call.data == "calendario-academico")
 def callback_calendario_academico(call):
     bot.answer_callback_query(call.id)
+    data_fim, dias = calcular_dados_semestre()
     
     texto = (
         "📅 O calendário de matrícula do SIGAA é divulgado periodicamente.\n"
@@ -143,7 +145,9 @@ def callback_calendario_academico(call):
         "• Cadastro de Turmas: 13/05 até 06/07\n"
         "• Matrícula OnLine (Pré-Matrícula): 17/07 até 26/07\n"
         "• Ajustes das Matrículas (1ª fase): 27/07\n"
-        "• Re-Matrícula (2ª fase): 30/07 até 05/08\n\n"
+        "• Re-Matrícula (2ª fase): 30/07 até 05/08\n"
+        f"• Fim do Semestre: {data_fim}\n"
+        f"🤩 Faltam {dias} dias para o fim do semestre!\n\n"
         "➡️ Confira o calendário completo abaixo:"
     )
     
@@ -177,6 +181,22 @@ def callback_analise_historico(call):
     )
     
     bot.register_next_step_handler(msg, processar_upload_historico)
+
+
+def calcular_dados_semestre():
+    #A alteração da data do fim do semestre deve ser aplicada manualmente, logo caso tenhamos alguma aleração ela deve ser feita na linha abaixo.
+    ano, mes, dia = 2026, 7, 6
+    
+    data_destino = datetime(ano, mes, dia)
+    data_formatada = data_destino.strftime("%d/%m/%Y")
+    
+    # Cálculo dos dias que faltam
+    hoje = datetime.now()
+    dias_restantes = (data_destino - hoje).days
+    
+    return data_formatada, dias_restantes
+
+
 
 def processar_upload_historico(message):
     # VERIFICAÇÃO ARQUIVO
