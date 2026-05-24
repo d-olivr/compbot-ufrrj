@@ -49,9 +49,52 @@ def extrair_tabelas_sigaa(caminho_pdf):
     arquivo_csv = f"{nome_base}_completo.csv"
     arquivo_xlsx = f"{nome_base}_completo.xlsx"
 
-    # Salva CSV e Excel
+        # Salva CSV bruto e Excel
     df_final.to_csv(arquivo_csv, index=False)
     df_final.to_excel(arquivo_xlsx, index=False)
 
-    # Devolve o caminho dos arquivos gerados para o bot
-    return arquivo_csv, arquivo_xlsx
+    # ---------------- TRATAMENTO PARA KMEANS ----------------
+
+    materias = {
+        "IM885": None,
+        "IM853": None,
+        "TN707": None,
+        "TN705": None,
+        "TN706": None,
+        "TN703": None
+    }
+
+    for _, row in df_final.iterrows():
+
+        texto_linha = " ".join([str(x) for x in row.values])
+
+        for codigo in materias.keys():
+
+            if codigo in texto_linha:
+
+                numeros = re.findall(r"\d+\.\d+|\d+", texto_linha)
+
+                notas = []
+
+                for n in numeros:
+                    try:
+                        valor = float(n)
+
+                        if 0 <= valor <= 10:
+                            notas.append(valor)
+
+                    except:
+                        pass
+
+                if notas:
+                    materias[codigo] = max(notas)
+
+    # dataframe final pro kmeans
+    df_kmeans = pd.DataFrame([materias])
+
+    arquivo_kmeans = f"{nome_base}_kmeans.csv"
+
+    df_kmeans.to_csv(arquivo_kmeans, index=False)
+
+    # retorna csv tratado + excel bruto
+    return arquivo_kmeans, arquivo_xlsx

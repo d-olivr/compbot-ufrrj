@@ -4,6 +4,8 @@ from telebot import types
 from dotenv import load_dotenv
 from leitura_tabela import extrair_tabelas_sigaa
 from datetime import datetime
+from kmean import analisar_historico
+import pandas as pd
 
 # carrega token do .env
 load_dotenv()
@@ -215,10 +217,14 @@ def processar_upload_historico(message):
             f.write(downloaded_file)
         
         arquivo_csv, arquivo_xlsx = extrair_tabelas_sigaa(caminho_local)
+        
+        df_historico = pd.read_csv(arquivo_csv)
+        resultado_analise = analisar_historico(df_historico)
+
 
         if arquivo_csv and arquivo_xlsx:
             bot.send_message(message.chat.id, "✅ **Histórico extraído com sucesso!** Aqui estão os seus arquivos:")
-            
+            bot.send_message(message.chat.id, resultado_analise)
             # EXEL
             with open(arquivo_xlsx, 'rb') as doc_xlsx:
                 bot.send_document(message.chat.id, doc_xlsx)
