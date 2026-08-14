@@ -47,11 +47,7 @@
 
 ``` mermaid
 
----
-config:
-  layout: elk
-  theme: redux-dark
----
+%%{init: {'theme': 'dark'}}%%
 flowchart TB
  subgraph LEGENDA["Legenda"]
         L_BTN["Botão"]
@@ -93,16 +89,13 @@ flowchart TB
      PER2:::botao
      PER_N:::neutro
      n3:::neutro
-     n3:::neutro
      SEL_MAT:::texto
      MAT_PE:::botao
      MAT_OUT:::botao
      MAT_N:::neutro
      n4:::neutro
-     n4:::neutro
      INFO_PE:::texto
      BTN_PLAY:::botao
-     n5:::neutro
      n5:::neutro
      INFO_CAL:::texto
      PDF_CAL:::neutro
