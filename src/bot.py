@@ -4,6 +4,8 @@ from telebot import types
 from dotenv import load_dotenv
 from leitura_tabela import extrair_tabelas_sigaa
 from datetime import datetime
+from kmean import analisar_historico
+import pandas as pd
 
 # carrega token do .env
 load_dotenv()
@@ -185,7 +187,7 @@ def callback_analise_historico(call):
 
 def calcular_dados_semestre():
     #A alteração da data do fim do semestre deve ser aplicada manualmente, logo caso tenhamos alguma aleração ela deve ser feita na linha abaixo.
-    ano, mes, dia = 2026, 7, 6
+    ano, mes, dia = 2026, 12, 19
     
     data_destino = datetime(ano, mes, dia)
     data_formatada = data_destino.strftime("%d/%m/%Y")
@@ -211,23 +213,30 @@ def processar_upload_historico(message):
         downloaded_file = bot.download_file(file_info.file_path)
         
         caminho_local = f"historico_{message.chat.id}.pdf"
-        with open(caminho_local, 'wb') as f:
+        with open(caminho_local, 'wb' ) as f:
             f.write(downloaded_file)
         
+        # Chama a função lá do leitura_tabela.py
         arquivo_csv, arquivo_xlsx = extrair_tabelas_sigaa(caminho_local)
 
         if arquivo_csv and arquivo_xlsx:
+            # Lê o CSV gerado e joga no KMeans
+            df_historico = pd.read_csv(arquivo_csv)
+            resultado_analise = analisar_historico(df_historico)
+
+            # Envia as respostas para o Telegram
             bot.send_message(message.chat.id, "✅ **Histórico extraído com sucesso!** Aqui estão os seus arquivos:")
+            bot.send_message(message.chat.id, resultado_analise, parse_mode="Markdown")
             
-            # EXEL
+            # Envia o Excel
             with open(arquivo_xlsx, 'rb') as doc_xlsx:
                 bot.send_document(message.chat.id, doc_xlsx)
                 
-            # CSV
+            # Envia o CSV
             with open(arquivo_csv, 'rb') as doc_csv:
                 bot.send_document(message.chat.id, doc_csv)
             
-            # Faxina! LIMPA ARQUIVOS DA MAQUINA
+            # Faxina! LIMPA ARQUIVOS DA MÁQUINA
             os.remove(caminho_local)
             os.remove(arquivo_csv)
             os.remove(arquivo_xlsx)
@@ -239,7 +248,7 @@ def processar_upload_historico(message):
     except Exception as e:
         print(f"ERRO NO PROCESSAMENTO DO PDF: {e}")
         bot.send_message(message.chat.id, "❌ Ocorreu um erro interno ao tentar ler o histórico.")
-
+        
 # ------------------ INICIALIZAÇÃO DO BOT -----------------
 print("Bot rodando...")
 bot.infinity_polling()
