@@ -174,6 +174,8 @@ Contributions are welcome! If you are a UFRRJ student or just want to help impro
 4. Push to the branch (`git push origin feature/my-feature`)
 5. Open a Pull Request
 
+---
+
 ## 👥 Collaborators
 
 Built as part of an undergraduate research program (*Iniciação Científica*) at **UFRRJ - Universidade Federal Rural do Rio de Janeiro**.
