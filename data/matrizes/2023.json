@@ -1,0 +1,63 @@
+{
+  "id": "2023",
+  "nome": "Matriz 2023",
+  "total_periodos": 8,
+  
+  "disciplinas": [
+    {
+      "id": "circuitos-digitais",
+      "periodo": 1,
+      "pre_requisitos": []
+    },
+    {
+      "id": "computadores-e-sociedade",
+      "periodo": 1,
+      "pre_requisitos": []
+    },
+    {
+      "id": "geometria-analitica",
+      "periodo": 1,
+      "pre_requisitos": []
+    },
+    {
+      "id": "icc",
+      "periodo": 1,
+      "pre_requisitos": []
+    },
+    {
+      "id": "matematica-discreta",
+      "periodo": 1,
+      "pre_requisitos": []
+    },
+    {
+      "id": "programacao-estruturada",
+      "periodo": 1,
+      "pre_requisitos": []
+    },
+    {
+      "id": "algebra-linear",
+      "periodo": 2,
+      "pre_requisitos": []
+    },
+    {
+      "id": "calculo-1",
+      "periodo": 2,
+      "pre_requisitos": []
+    },
+    {
+      "id": "estruturas-de-dados-1",
+      "periodo": 2,
+      "pre_requisitos": []
+    },
+    {
+      "id": "arquitetura-de-computadores",
+      "periodo": 2,
+      "pre_requisitos": []
+    },
+    {
+      "id": "logica",
+      "periodo": 2,
+      "pre_requisitos": []
+    }
+  ]
+}

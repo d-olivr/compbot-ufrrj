@@ -1,0 +1,136 @@
+{
+  "disciplinas": [
+    {
+      "id": "circuitos-digitais",
+      "codigo": "",
+      "nome": "Circuitos Digitais",
+      "emoji": "🔌",
+      "descricao": "Aqui você aprenderá sobre portas lógicas, flip-flops e circuitos lógicos. Essa matéria é fundamental para entender Arquitetura de Computadores e Sistemas Operacionais.",
+      "professor": "Marcel Silva",
+      "contato": "marcelsilva@ufrrj.br",
+      "playlist": "https://www.youtube.com/playlist?list=PLN-6t07cgV6mvR_VUjQCUzOHGmdHPE_Uz",
+      "carga_horaria": null,
+      "oferta": []
+    },
+    {
+      "id": "computadores-e-sociedade",
+      "codigo": "",
+      "nome": "Computadores e Sociedade",
+      "emoji": "📘",
+      "descricao": "",
+      "professor": "",
+      "contato": "",
+      "playlist": "",
+      "carga_horaria": null,
+      "oferta": []
+    },
+    {
+      "id": "geometria-analitica",
+      "codigo": "",
+      "nome": "Geometria Analítica",
+      "emoji": "📐",
+      "descricao": "Nesta disciplina você estudará vetores, retas, planos e cônicas. É essencial para entender Álgebra Linear e Computação Gráfica.",
+      "professor": "Vânia Machado",
+      "contato": "machadovc@gmail.com",
+      "playlist": "",
+      "carga_horaria": null,
+      "oferta": []
+    },
+    {
+      "id": "icc",
+      "codigo": "",
+      "nome": "ICC",
+      "emoji": "📘",
+      "descricao": "",
+      "professor": "",
+      "contato": "",
+      "playlist": "",
+      "carga_horaria": null,
+      "oferta": []
+    },
+    {
+      "id": "matematica-discreta",
+      "codigo": "",
+      "nome": "Matemática Discreta",
+      "emoji": "📘",
+      "descricao": "",
+      "professor": "",
+      "contato": "",
+      "playlist": "",
+      "carga_horaria": null,
+      "oferta": []
+    },
+    {
+      "id": "programacao-estruturada",
+      "codigo": "",
+      "nome": "Programação Estruturada",
+      "emoji": "📘",
+      "descricao": "",
+      "professor": "",
+      "contato": "",
+      "playlist": "",
+      "carga_horaria": null,
+      "oferta": []
+    },
+    {
+      "id": "algebra-linear",
+      "codigo": "",
+      "nome": "Álgebra Linear",
+      "emoji": "📘",
+      "descricao": "",
+      "professor": "",
+      "contato": "",
+      "playlist": "",
+      "carga_horaria": null,
+      "oferta": []
+    },
+    {
+      "id": "calculo-1",
+      "codigo": "",
+      "nome": "Cálculo I",
+      "emoji": "📘",
+      "descricao": "",
+      "professor": "",
+      "contato": "",
+      "playlist": "",
+      "carga_horaria": null,
+      "oferta": []
+    },
+    {
+      "id": "estruturas-de-dados-1",
+      "codigo": "",
+      "nome": "Estruturas de Dados I",
+      "emoji": "📘",
+      "descricao": "",
+      "professor": "",
+      "contato": "",
+      "playlist": "",
+      "carga_horaria": null,
+      "oferta": []
+    },
+    {
+      "id": "arquitetura-de-computadores",
+      "codigo": "",
+      "nome": "Arquitetura de Computadores",
+      "emoji": "📘",
+      "descricao": "",
+      "professor": "",
+      "contato": "",
+      "playlist": "",
+      "carga_horaria": null,
+      "oferta": []
+    },
+    {
+      "id": "logica",
+      "codigo": "",
+      "nome": "Lógica",
+      "emoji": "📘",
+      "descricao": "",
+      "professor": "",
+      "contato": "",
+      "playlist": "",
+      "carga_horaria": null,
+      "oferta": []
+    }
+  ]
+}
