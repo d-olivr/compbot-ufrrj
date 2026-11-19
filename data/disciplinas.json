@@ -2,135 +2,1038 @@
   "disciplinas": [
     {
       "id": "circuitos-digitais",
-      "codigo": "",
+      "codigo": "IM853",
       "nome": "Circuitos Digitais",
       "emoji": "🔌",
       "descricao": "Aqui você aprenderá sobre portas lógicas, flip-flops e circuitos lógicos. Essa matéria é fundamental para entender Arquitetura de Computadores e Sistemas Operacionais.",
       "professor": "Marcel Silva",
       "contato": "marcelsilva@ufrrj.br",
       "playlist": "https://www.youtube.com/playlist?list=PLN-6t07cgV6mvR_VUjQCUzOHGmdHPE_Uz",
-      "carga_horaria": null,
-      "oferta": []
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
     },
     {
       "id": "computadores-e-sociedade",
-      "codigo": "",
+      "codigo": "TN703",
       "nome": "Computadores e Sociedade",
-      "emoji": "📘",
-      "descricao": "",
-      "professor": "",
-      "contato": "",
+      "emoji": "🌍",
+      "descricao": "Aqui você vai discutir ética na computação, inclusão e exclusão digital, o impacto das novas tecnologias na sociedade e ergonomia.",
+      "professor": "Ligia Maria Soares Passos",
+      "contato": "ligia@ufrrj.br",
       "playlist": "",
-      "carga_horaria": null,
-      "oferta": []
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
     },
     {
       "id": "geometria-analitica",
-      "codigo": "",
+      "codigo": "IM885",
       "nome": "Geometria Analítica",
       "emoji": "📐",
       "descricao": "Nesta disciplina você estudará vetores, retas, planos e cônicas. É essencial para entender Álgebra Linear e Computação Gráfica.",
       "professor": "Vânia Machado",
       "contato": "machadovc@gmail.com",
       "playlist": "",
-      "carga_horaria": null,
-      "oferta": []
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre",
+        "2º semestre"
+      ]
     },
     {
       "id": "icc",
-      "codigo": "",
+      "codigo": "TN707",
       "nome": "ICC",
-      "emoji": "📘",
-      "descricao": "",
-      "professor": "",
-      "contato": "",
+      "emoji": "🖥️",
+      "descricao": "Aqui você terá uma visão geral da computação: bases numéricas, representação da informação, hardware e software, as grandes áreas da computação e o mercado de trabalho.",
+      "professor": "Daniel Fabio Domingues Posner",
+      "contato": "posner@ufrrj.br",
       "playlist": "",
-      "carga_horaria": null,
-      "oferta": []
+      "carga_horaria": 30,
+      "oferta": [
+        "1º semestre"
+      ]
     },
     {
       "id": "matematica-discreta",
-      "codigo": "",
+      "codigo": "TN705",
       "nome": "Matemática Discreta",
-      "emoji": "📘",
-      "descricao": "",
-      "professor": "",
-      "contato": "",
+      "emoji": "🔢",
+      "descricao": "Aqui você aprenderá lógica matemática, teoria dos conjuntos, técnicas de demonstração, recorrências, análise combinatória e relações.",
+      "professor": "Ricardo Cordeiro Correa",
+      "contato": "correa@ufrrj.br",
       "playlist": "",
-      "carga_horaria": null,
-      "oferta": []
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre",
+        "2º semestre"
+      ]
     },
     {
       "id": "programacao-estruturada",
-      "codigo": "",
+      "codigo": "TN706",
       "nome": "Programação Estruturada",
-      "emoji": "📘",
-      "descricao": "",
-      "professor": "",
-      "contato": "",
+      "emoji": "⌨️",
+      "descricao": "Aqui você aprenderá a programar do zero: algoritmos, comandos básicos, vetores, matrizes, registros, funções, recursão, ponteiros e arquivos.",
+      "professor": "Daniel Fabio Domingues Posner",
+      "contato": "posner@ufrrj.br",
       "playlist": "",
-      "carga_horaria": null,
-      "oferta": []
+      "carga_horaria": 90,
+      "oferta": [
+        "1º semestre",
+        "2º semestre"
+      ]
     },
     {
       "id": "algebra-linear",
-      "codigo": "",
+      "codigo": "IM429",
       "nome": "Álgebra Linear",
-      "emoji": "📘",
-      "descricao": "",
-      "professor": "",
-      "contato": "",
+      "emoji": "📐",
+      "descricao": "Aqui você aprenderá sobre matrizes, sistemas lineares, espaços vetoriais, transformações lineares, autovalores e autovetores.",
+      "professor": "Camila Ribeiro de Lacerda Pacheco e Alessandra Barbosa Verissimo",
+      "contato": "lacerda@ufrrj.br, alessandrabverissimo@gmail.com",
       "playlist": "",
-      "carga_horaria": null,
-      "oferta": []
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre",
+        "2º semestre"
+      ]
     },
     {
       "id": "calculo-1",
-      "codigo": "",
+      "codigo": "IM403",
       "nome": "Cálculo I",
-      "emoji": "📘",
-      "descricao": "",
-      "professor": "",
-      "contato": "",
+      "emoji": "📈",
+      "descricao": "Aqui você aprenderá sobre funções de uma variável, limites, derivadas e suas aplicações.",
+      "professor": "Paula Takatsuka e Marcio Anderson de Sa Pereira",
+      "contato": "paulatakatsuka@gmail.com, massa@ufrrj.br",
       "playlist": "",
-      "carga_horaria": null,
-      "oferta": []
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre",
+        "2º semestre"
+      ]
     },
     {
       "id": "estruturas-de-dados-1",
-      "codigo": "",
+      "codigo": "TN711",
       "nome": "Estruturas de Dados I",
-      "emoji": "📘",
-      "descricao": "",
-      "professor": "",
-      "contato": "",
+      "emoji": "🧱",
+      "descricao": "Aqui você aprenderá a organizar dados com listas, pilhas, filas e árvores (incluindo AVL e rubro-negras), além de algoritmos de ordenação e análise de complexidade.",
+      "professor": "Adria Ramos de Lyra",
+      "contato": "adrialyra@gmail.com",
       "playlist": "",
-      "carga_horaria": null,
-      "oferta": []
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
     },
     {
       "id": "arquitetura-de-computadores",
-      "codigo": "",
+      "codigo": "TN712",
       "nome": "Arquitetura de Computadores",
-      "emoji": "📘",
-      "descricao": "",
-      "professor": "",
-      "contato": "",
+      "emoji": "🖲️",
+      "descricao": "Aqui você aprenderá como um computador é organizado por dentro: aritmética computacional, linguagem de máquina, processador, hierarquia de memória e desempenho.",
+      "professor": "Marcelo Panaro de Moraes Zamith",
+      "contato": "mzamith@ufrrj.br",
       "playlist": "",
-      "carga_horaria": null,
-      "oferta": []
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
     },
     {
       "id": "logica",
-      "codigo": "",
+      "codigo": "TN709",
       "nome": "Lógica",
-      "emoji": "📘",
-      "descricao": "",
-      "professor": "",
-      "contato": "",
+      "emoji": "🔣",
+      "descricao": "Aqui você aprenderá lógica proposicional e lógica de predicados, com sintaxe, semântica e métodos de dedução e resolução.",
+      "professor": "Ligia Maria Soares Passos",
+      "contato": "ligia@ufrrj.br",
       "playlist": "",
-      "carga_horaria": null,
-      "oferta": []
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "algebra-linear-computacional",
+      "codigo": "IM478",
+      "nome": "Álgebra Linear Computacional",
+      "emoji": "🧮",
+      "descricao": "Aqui você aprenderá a resolver sistemas lineares no computador, com estruturas de dados para matrizes, métodos diretos (como fatoração LU) e métodos iterativos.",
+      "professor": "Ronaldo Malheiros Gregorio",
+      "contato": "rgregor@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre",
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "calculo-2",
+      "codigo": "IM404",
+      "nome": "Cálculo II",
+      "emoji": "➗",
+      "descricao": "Aqui você aprenderá sobre integrais de funções de uma variável e terá o primeiro contato com funções de várias variáveis.",
+      "professor": "Brigida Alexandre Sartini",
+      "contato": "brigida@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "calculo-3",
+      "codigo": "IM425",
+      "nome": "Cálculo III",
+      "emoji": "🌐",
+      "descricao": "Aqui você aprenderá sobre derivadas de funções de várias variáveis, máximos e mínimos e integrais múltiplas.",
+      "professor": "Marcela Lima Santos Pereira e Marcello Fidelis",
+      "contato": "marcela.prof.ufrrj@gmail.com, marcellofidelis@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre",
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "fisica-para-ciencia-da-computacao",
+      "codigo": "TM407",
+      "nome": "Física para Ciência da Computação",
+      "emoji": "⚛️",
+      "descricao": "Aqui você aprenderá os fundamentos de física: movimento e forças de partículas, eletrostática, campos magnéticos, corrente elétrica e óptica geométrica.",
+      "professor": "Frederico Alan de Oliveira Cruz",
+      "contato": "frederico@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "probabilidade-e-estatistica-para-ciencia-da-computacao",
+      "codigo": "IM859",
+      "nome": "Probabilidade e Estatística para Ciência da Computação",
+      "emoji": "🎲",
+      "descricao": "Aqui você aprenderá conceitos básicos de estatística, amostragem, séries estatísticas e introdução à teoria das probabilidades.",
+      "professor": "Adeilton Pedro de Alcantara",
+      "contato": "adeiltonestatistica123@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre",
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "programacao-orientada-a-objetos",
+      "codigo": "TN717",
+      "nome": "Programação Orientada a Objetos",
+      "emoji": "🧩",
+      "descricao": "Aqui você aprenderá a programar com classes e objetos, encapsulamento, herança, interfaces, polimorfismo e tratamento de exceções.",
+      "professor": "Fellipe Ribeiro Duarte",
+      "contato": "duartefellipe@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre",
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "analise-e-projeto-de-algoritmos",
+      "codigo": "TN723",
+      "nome": "Análise e Projeto de Algoritmos",
+      "emoji": "⚡",
+      "descricao": "Aqui você aprenderá a medir a eficiência de algoritmos, as principais técnicas de projeto, NP-completude e algoritmos aproximativos.",
+      "professor": "Ricardo Cordeiro Correa",
+      "contato": "correa@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "banco-de-dados",
+      "codigo": "TN727",
+      "nome": "Banco de Dados",
+      "emoji": "🗄️",
+      "descricao": "Aqui você aprenderá a modelar e criar bancos de dados: modelo entidade-relacionamento, projeto lógico, normalização, álgebra relacional e SQL.",
+      "professor": "Fellipe Ribeiro Duarte",
+      "contato": "duartefellipe@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "compiladores",
+      "codigo": "TN725",
+      "nome": "Compiladores",
+      "emoji": "⚙️",
+      "descricao": "Aqui você aprenderá como um compilador funciona: análise léxica, sintática e semântica, tratamento de erros e geração de código intermediário.",
+      "professor": "Filipe Braida do Carmo",
+      "contato": "filipebraida@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "computacao-grafica",
+      "codigo": "TM421",
+      "nome": "Computação Gráfica",
+      "emoji": "🎨",
+      "descricao": "Aqui você aprenderá a criar imagens e cenas virtuais no computador: APIs gráficas, modelagem geométrica, cor, câmera virtual, iluminação, texturas e pipeline gráfico.",
+      "professor": "Bruno Jose Dembogurski",
+      "contato": "brunodembogurski@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "engenharia-de-software-1",
+      "codigo": "TN710",
+      "nome": "Engenharia de Software I",
+      "emoji": "🛠️",
+      "descricao": "Aqui você aprenderá os fundamentos de como desenvolver software de forma organizada: processos de software, requisitos, verificação e validação, implantação e qualidade.",
+      "professor": "Natalia Chaves Lessa",
+      "contato": "nataliach.lessa@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "estruturas-de-dados-2",
+      "codigo": "TN730",
+      "nome": "Estruturas de Dados II",
+      "emoji": "💾",
+      "descricao": "Aqui você aprenderá a organizar dados em arquivos e índices: acesso direto, tabelas de dispersão (hash), árvores B e B+, compressão e processamento de cadeias.",
+      "professor": "Bruno Jose Dembogurski",
+      "contato": "brunodembogurski@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "grafos-e-algoritmos",
+      "codigo": "TN718",
+      "nome": "Grafos e Algoritmos",
+      "emoji": "🕸️",
+      "descricao": "Aqui você aprenderá teoria dos grafos e seus algoritmos clássicos: busca, caminhos mais curtos, árvore geradora e fluxo máximo.",
+      "professor": "Fernanda Vieira Dias Couto",
+      "contato": "nandavdc@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre",
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "inteligencia-artificial",
+      "codigo": "TN724",
+      "nome": "Inteligência Artificial",
+      "emoji": "💡",
+      "descricao": "Aqui você aprenderá os fundamentos da IA: resolução de problemas por busca, representação de conhecimento e raciocínio, incerteza e aprendizado automático.",
+      "professor": "Ronaldo e Silva Vieira",
+      "contato": "ronaldoesv@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "linguagens-de-programacao",
+      "codigo": "TN720",
+      "nome": "Linguagens de Programação",
+      "emoji": "📝",
+      "descricao": "Aqui você aprenderá como as linguagens de programação funcionam e se comparam: tipos de dados, estruturas de controle, subprogramas, tipos abstratos e paradigmas.",
+      "professor": "Filipe Braida do Carmo",
+      "contato": "filipebraida@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "linguagens-formais-e-automatos",
+      "codigo": "TN715",
+      "nome": "Linguagens Formais e Autômatos",
+      "emoji": "🔁",
+      "descricao": "Aqui você aprenderá a teoria dos autômatos: linguagens regulares e autômatos finitos, linguagens livres de contexto e autômatos de pilha, e máquinas de Turing.",
+      "professor": "Ligia Maria Soares Passos",
+      "contato": "ligia@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "metodos-numericos",
+      "codigo": "TN726",
+      "nome": "Métodos Numéricos",
+      "emoji": "🔬",
+      "descricao": "Aqui você aprenderá a resolver problemas matemáticos de forma aproximada no computador: erros, zeros de funções, interpolação, integração numérica e equações diferenciais.",
+      "professor": "Marcelo Panaro de Moraes Zamith",
+      "contato": "mzamith@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre",
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "modelagem-e-projeto-de-software",
+      "codigo": "TN716",
+      "nome": "Modelagem e Projeto de Software",
+      "emoji": "📋",
+      "descricao": "Aqui você aprenderá a modelar e projetar sistemas com diagramas de casos de uso, classes, interações, estados e atividades, com estudo de caso prático.",
+      "professor": "Fellipe Ribeiro Duarte",
+      "contato": "duartefellipe@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "otimizacao-linear",
+      "codigo": "TN728",
+      "nome": "Otimização Linear",
+      "emoji": "📉",
+      "descricao": "Aqui você aprenderá a formular e resolver problemas de otimização linear com o método gráfico e o método Simplex, além de dualidade e análise de sensibilidade.",
+      "professor": "Adria Ramos de Lyra",
+      "contato": "adrialyra@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "redes-e-sistemas-distribuidos",
+      "codigo": "TN729",
+      "nome": "Redes e Sistemas Distribuídos",
+      "emoji": "📡",
+      "descricao": "Aqui você aprenderá como funcionam as redes de computadores e a Internet: protocolos das camadas de aplicação, transporte, rede e enlace, além de conceitos de sistemas distribuídos.",
+      "professor": "Marcel William Rocha da Silva",
+      "contato": "marcelsilva@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "sistemas-operacionais",
+      "codigo": "IM868",
+      "nome": "Sistemas Operacionais",
+      "emoji": "🐧",
+      "descricao": "Aqui você aprenderá como um sistema operacional funciona: processos, gerência de memória, sistemas de arquivos e gerência de dispositivos.",
+      "professor": "Marcelo Panaro de Moraes Zamith",
+      "contato": "mzamith@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "teoria-dos-grafos",
+      "codigo": "TN749",
+      "nome": "Teoria dos Grafos",
+      "emoji": "🔵",
+      "descricao": "Aqui você aprenderá teoria dos grafos mais a fundo, estudando classes de grafos e como reconhecê-las.",
+      "professor": "Fernanda Vieira Dias Couto",
+      "contato": "nandavdc@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "topicos-especiais-em-grafos-e-algoritmos",
+      "codigo": "TN740",
+      "nome": "Tópicos Especiais em Grafos e Algoritmos",
+      "emoji": "🗺️",
+      "descricao": "Aqui você aprenderá algoritmos e complexidade computacional de problemas em grafos.",
+      "professor": "Fernanda Vieira Dias Couto",
+      "contato": "nandavdc@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "topicos-especiais-em-otimizacao",
+      "codigo": "TN751",
+      "nome": "Tópicos Especiais em Otimização",
+      "emoji": "🐜",
+      "descricao": "Aqui você aprenderá heurísticas e metaheurísticas para problemas difíceis: busca local, algoritmos genéticos, busca tabu, simulated annealing, GRASP, colônia de formigas, entre outras.",
+      "professor": "Adria Ramos de Lyra",
+      "contato": "adrialyra@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "otimizacao-combinatoria",
+      "codigo": "TN750",
+      "nome": "Otimização Combinatória",
+      "emoji": "🧷",
+      "descricao": "Aqui você aprenderá métodos exatos para problemas de otimização combinatória: formulações, relaxação linear, programação dinâmica, branch-and-bound e branch-and-cut.",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "introducao-a-pesquisa-operacional",
+      "codigo": "TN738",
+      "nome": "Introdução à Pesquisa Operacional",
+      "emoji": "🏭",
+      "descricao": "Aqui você aprenderá modelos de filas, modelos de estoque e teoria de decisão.",
+      "professor": "Adria Ramos de Lyra",
+      "contato": "adrialyra@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "teoria-dos-jogos-algoritmica",
+      "codigo": "TN739",
+      "nome": "Teoria dos Jogos Algorítmica",
+      "emoji": "♟️",
+      "descricao": "Aqui você aprenderá teoria dos jogos e seus conceitos principais, como estratégias e equilíbrio de Nash, com exemplos e aplicações.",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "introducao-a-biologia-computacional",
+      "codigo": "TN737",
+      "nome": "Introdução a Biologia Computacional",
+      "emoji": "🧬",
+      "descricao": "Aqui você aprenderá a aplicar computação em biologia molecular: comparação de sequências, montagem de fragmentos de DNA, mapeamento físico e rearranjo de genomas.",
+      "professor": "Daniel Fabio Domingues Posner",
+      "contato": "posner@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "introducao-aos-sistemas-de-informacao",
+      "codigo": "TN713",
+      "nome": "Introdução aos Sistemas de Informação",
+      "emoji": "🗂️",
+      "descricao": "Aqui você aprenderá a diferença entre dado, informação e conhecimento, o papel da TI nas organizações e os tipos de sistemas de informação.",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "engenharia-de-software-2",
+      "codigo": "TN719",
+      "nome": "Engenharia de Software II",
+      "emoji": "🔧",
+      "descricao": "Aqui você aprenderá tópicos avançados de engenharia de software: desenvolvimento distribuído, reúso, arquitetura orientada a serviços, engenharia dirigida por modelos, linhas de produto e reengenharia.",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "arquitetura-de-software",
+      "codigo": "TN721",
+      "nome": "Arquitetura de Software",
+      "emoji": "🏛️",
+      "descricao": "Aqui você aprenderá a estruturar sistemas com padrões de projeto e padrões arquiteturais, com uma introdução ao desenvolvimento web.",
+      "professor": "Fellipe Ribeiro Duarte",
+      "contato": "duartefellipe@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "engenharia-de-requisitos",
+      "codigo": "TN734",
+      "nome": "Engenharia de Requisitos",
+      "emoji": "🗒️",
+      "descricao": "Aqui você aprenderá a descobrir, modelar, validar e gerenciar os requisitos de um sistema.",
+      "professor": "Natalia Chaves Lessa",
+      "contato": "nataliach.lessa@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "interacao-humano-computador",
+      "codigo": "TN733",
+      "nome": "Interação Humano-Computador",
+      "emoji": "👆",
+      "descricao": "Aqui você aprenderá como pessoas interagem com sistemas e como projetar interfaces pensando no usuário.",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "gerencia-de-projetos",
+      "codigo": "TN731",
+      "nome": "Gerência de Projetos",
+      "emoji": "📅",
+      "descricao": "Aqui você aprenderá a planejar e conduzir projetos: ciclo de vida, processos de gerência, boas práticas, modelos de maturidade e o papel do gerente de projetos.",
+      "professor": "Natalia Chaves Lessa",
+      "contato": "nataliach.lessa@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre",
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "medicao-e-qualidade-de-software",
+      "codigo": "TN732",
+      "nome": "Medição e Qualidade de Software",
+      "emoji": "✅",
+      "descricao": "Aqui você aprenderá a medir software e processos: planejamento de medição, técnicas de análise, desempenho de processos e estimativas.",
+      "professor": "Natalia Chaves Lessa",
+      "contato": "nataliach.lessa@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "gestao-de-processos",
+      "codigo": "TN755",
+      "nome": "Gestão de Processos",
+      "emoji": "🔄",
+      "descricao": "Aqui você aprenderá gestão de processos de negócio (BPM), modelagem e melhoria de processos de software, normas de qualidade, modelos de maturidade e Six Sigma.",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "introducao-a-engenharia-de-software-experimental",
+      "codigo": "TN704",
+      "nome": "Introdução à Engenharia de Software Experimental",
+      "emoji": "🧪",
+      "descricao": "Aqui você aprenderá a planejar e executar estudos experimentais em engenharia de software, com métodos estatísticos e revisão sistemática da literatura.",
+      "professor": "Natalia Chaves Lessa",
+      "contato": "nataliach.lessa@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "governanca-de-tecnologia-da-informacao",
+      "codigo": "TN708",
+      "nome": "Governança de Tecnologia da Informação",
+      "emoji": "🏦",
+      "descricao": "Aqui você aprenderá como alinhar a TI à estratégia de uma organização, com planejamento estratégico, COBIT, controles e gestão de serviços de TI.",
+      "professor": "Natalia Chaves Lessa",
+      "contato": "nataliach.lessa@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "empreendedorismo-em-informatica",
+      "codigo": "TN754",
+      "nome": "Empreendedorismo em Informática",
+      "emoji": "🚀",
+      "descricao": "Aqui você aprenderá a transformar ideias em negócios: inovação, criatividade, identificação de oportunidades e plano de negócio.",
+      "professor": "Natalia Chaves Lessa",
+      "contato": "nataliach.lessa@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "banco-de-dados-2",
+      "codigo": "TN735",
+      "nome": "Banco de Dados II",
+      "emoji": "🗃️",
+      "descricao": "Aqui você aprenderá como um SGBD funciona por dentro e como analisar e otimizar consultas SQL.",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "introducao-a-web-semantica",
+      "codigo": "TN736",
+      "nome": "Introdução à Web Semântica",
+      "emoji": "🔗",
+      "descricao": "Aqui você aprenderá sobre dados ligados e dados abertos, RDF, ontologias, OWL e consultas com SPARQL.",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "inteligencia-de-negocios",
+      "codigo": "TN747",
+      "nome": "Inteligência de Negócios",
+      "emoji": "📊",
+      "descricao": "Aqui você aprenderá a transformar dados de uma empresa em informação para decisões, com data warehouse, modelagem dimensional e processos de ETL (extração, limpeza e carga dos dados).",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "introducao-a-teoria-das-redes-de-petri",
+      "codigo": "TM431",
+      "nome": "Introdução à Teoria das Redes de Petri",
+      "emoji": "🔀",
+      "descricao": "Aqui você aprenderá Redes de Petri, um modelo para representar sistemas concorrentes, e como analisar suas propriedades, inclusive com tempo e dados.",
+      "professor": "Ligia Maria Soares Passos",
+      "contato": "ligia@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "modelagem-de-software-com-redes-de-petri",
+      "codigo": "TM432",
+      "nome": "Modelagem de Software com Redes de Petri",
+      "emoji": "🧭",
+      "descricao": "Aqui você aprenderá a especificar e analisar software usando Redes de Petri, olhando fluxo de dados e de controle, até chegar ao projeto da arquitetura.",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "modelagem-e-analise-formal-de-processos-de-negocio",
+      "codigo": "TN722",
+      "nome": "Modelagem e Análise Formal de Processos de Negócio",
+      "emoji": "🏢",
+      "descricao": "Aqui você aprenderá a modelar e analisar formalmente processos de negócio com WorkFlow nets, inclusive processos entre organizações.",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "programacao-paralela-e-distribuida",
+      "codigo": "TM435",
+      "nome": "Programação Paralela e Distribuída",
+      "emoji": "🧵",
+      "descricao": "Aqui você aprenderá a programar para várias CPUs e máquinas ao mesmo tempo, com threads, OpenMP e MPI, e a avaliar o desempenho dessas aplicações.",
+      "professor": "Juliana Mendes Nascente e Silva Zamith",
+      "contato": "juliananascente@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "computacao-de-alto-desempenho",
+      "codigo": "TN741",
+      "nome": "Computação de Alto Desempenho",
+      "emoji": "🏎️",
+      "descricao": "Aqui você aprenderá a extrair o máximo de desempenho do hardware: modernização de código, ambientes paralelos e distribuídos, GPUs, FPGAs e análise de desempenho.",
+      "professor": "Marcelo Panaro de Moraes Zamith",
+      "contato": "mzamith@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "algoritmos-paralelos-e-distribuidos",
+      "codigo": "TM436",
+      "nome": "Algoritmos Paralelos e Distribuídos",
+      "emoji": "⏱️",
+      "descricao": "Aqui você aprenderá técnicas de algoritmos paralelos e distribuídos, modelos de programação paralela, complexidade e conceitos como relógios lógicos e estado global.",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "programacao-em-gpu",
+      "codigo": "TN742",
+      "nome": "Programação em GPU",
+      "emoji": "🎮",
+      "descricao": "Aqui você aprenderá a programar placas de vídeo para computação de alto desempenho, usando CUDA e OpenCL.",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "arquitetura-de-computadores-2",
+      "codigo": "TN748",
+      "nome": "Arquitetura de Computadores II",
+      "emoji": "🔩",
+      "descricao": "Aqui você aprenderá mais a fundo a arquitetura de um processador, sistemas de entrada e saída e o uso de pipeline para ganhar desempenho.",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "introducao-a-dispositivos-moveis",
+      "codigo": "TN743",
+      "nome": "Introdução a Dispositivos Móveis",
+      "emoji": "📱",
+      "descricao": "Aqui você aprenderá a desenvolver aplicativos Android: plataforma, layouts, recursos, banco de dados no celular e aplicações híbridas.",
+      "professor": "Marcelo Panaro de Moraes Zamith",
+      "contato": "mzamith@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "redes-de-computadores-sem-fio",
+      "codigo": "TM430",
+      "nome": "Redes de Computadores Sem Fio",
+      "emoji": "📶",
+      "descricao": "Aqui você aprenderá como funcionam as redes sem fio: transmissão de sinais, antenas, propagação, redes celulares, Wi-Fi, redes de sensores e mobilidade.",
+      "professor": "Marcel William Rocha da Silva",
+      "contato": "marcelsilva@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "roteamento-em-redes-de-computadores",
+      "codigo": "TN744",
+      "nome": "Roteamento em Redes de Computadores",
+      "emoji": "🛣️",
+      "descricao": "Aqui você aprenderá como os dados encontram o caminho na rede: algoritmos de roteamento, roteamento na Internet, endereçamento, multicast e roteamento em redes sem fio.",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "aprendizado-de-maquina",
+      "codigo": "TN745",
+      "nome": "Aprendizado de Máquina",
+      "emoji": "🤖",
+      "descricao": "Aqui você aprenderá como máquinas aprendem a partir de dados: tipos de problema, metodologia experimental, engenharia de atributos, seleção de modelos e métodos preditivos.",
+      "professor": "Leandro Guimaraes Marques Alvim",
+      "contato": "alvim.lgm@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre",
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "redes-neurais-artificiais",
+      "codigo": "TN746",
+      "nome": "Redes Neurais Artificiais",
+      "emoji": "🧠",
+      "descricao": "Aqui você aprenderá sobre redes neurais, do perceptron às redes MLP, autoencoders e aprendizado profundo, com aplicações.",
+      "professor": "Leandro Guimaraes Marques Alvim",
+      "contato": "alvim.lgm@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "mineracao-de-dados",
+      "codigo": "TM434",
+      "nome": "Mineração de Dados",
+      "emoji": "⛏️",
+      "descricao": "Aqui você aprenderá a descobrir conhecimento em grandes bases de dados: pré-processamento, regras de associação, classificação, agrupamento e detecção de outliers.",
+      "professor": "Leandro Guimaraes Marques Alvim",
+      "contato": "alvim.lgm@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "processamento-de-linguagem-natural",
+      "codigo": "TM441",
+      "nome": "Processamento de Linguagem Natural",
+      "emoji": "💬",
+      "descricao": "Aqui você aprenderá a fazer o computador entender textos: modelos de linguagem, classificação de texto, entidades nomeadas, extração de relações e análise de sentimentos.",
+      "professor": "Leandro Guimaraes Marques Alvim",
+      "contato": "alvim.lgm@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "processamento-de-imagens",
+      "codigo": "TM438",
+      "nome": "Processamento de Imagens",
+      "emoji": "🖼️",
+      "descricao": "Aqui você aprenderá a tratar e analisar imagens digitais: filtragem, restauração, morfologia, segmentação e compressão.",
+      "professor": "Bruno Jose Dembogurski",
+      "contato": "brunodembogurski@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "introducao-a-teoria-de-sistemas-de-recomendacao",
+      "codigo": "TM429",
+      "nome": "Introdução à Teoria de Sistemas de Recomendação",
+      "emoji": "⭐",
+      "descricao": "Aqui você aprenderá como funcionam sistemas de recomendação (tipo os de streaming e lojas online), com filtragem colaborativa e avaliação dos algoritmos.",
+      "professor": "Filipe Braida do Carmo",
+      "contato": "filipebraida@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "1º semestre"
+      ]
+    },
+    {
+      "id": "busca-e-recuperacao-de-informacao",
+      "codigo": "TM444",
+      "nome": "Busca e Recuperação de Informação",
+      "emoji": "🔎",
+      "descricao": "Aqui você aprenderá como funcionam mecanismos de busca: modelos de recuperação de informação, indexação e busca em textos.",
+      "professor": "Fellipe Ribeiro Duarte",
+      "contato": "duartefellipe@gmail.com",
+      "playlist": "",
+      "carga_horaria": 60,
+      "oferta": [
+        "2º semestre"
+      ]
+    },
+    {
+      "id": "lingua-brasileira-de-sinais",
+      "codigo": "IM461",
+      "nome": "Língua Brasileira de Sinais (LIBRAS)",
+      "emoji": "🤟",
+      "descricao": "Aqui você terá contato com a cultura surda e a educação de surdos e aprenderá noções da Língua Brasileira de Sinais.",
+      "professor": "❌",
+      "contato": "❌",
+      "playlist": "",
+      "carga_horaria": 30,
+      "oferta": [
+        "❌"
+      ]
+    },
+    {
+      "id": "cultura-afro-brasileira-e-africana",
+      "codigo": "IM188",
+      "nome": "Cultura Afro-Brasileira e Africana",
+      "emoji": "🪘",
+      "descricao": "Aqui você vai estudar a história e as contribuições dos povos africanos no Brasil, a diáspora negra, os quilombos, a religiosidade, as culturas afro-brasileiras contemporâneas e a realidade indígena brasileira.",
+      "professor": "Adilbenia Freire Machado",
+      "contato": "adilbenia@ufrrj.br",
+      "playlist": "",
+      "carga_horaria": 30,
+      "oferta": [
+        "2º semestre"
+      ]
     }
   ]
 }
