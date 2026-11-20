@@ -1,16 +1,17 @@
 """carrega o catálogo/modulos de disciplinas e as matrizes curriculares.
 
 data/disciplinas.json     catálogo único: o que a disciplina É (nome, descrição,
-                          professor, playlist, carga horária, quando costuma ser oferecida)
-data/matrizes/*.json      cada matriz só diz ONDE a disciplina entra: período e
-                          pré-requisitos (que podem mudar de uma matriz pra outra)
+                          professor, playlist, carga horária, quando costuma ser oferecida,
+                          pré-requisitos e as matérias que ela tranca)
+data/matrizes/*.json      cada matriz só diz ONDE a disciplina entra: o período
+                          (e o que for diferente naquela matriz)
 
 explicando como funciona:
 handlers nao leem os jsons direto, eles usam as funções daqui, que devolvem
-a disciplina já "juntada" (catálogo + dados da matriz). 
+a disciplina já "juntada" (catálogo + dados da matriz).
 
 qualquer campo do catálogo pode ser sobrescrito dentro da matriz, se for diferente naquela matriz
-(ex.: se carga_horaria não é a mesma na matriz de 2020 e de 2023, é só sobrescrever no respectivo json).
+(ex.: se carga_horaria ou pre_requisitos não são os mesmos na matriz de 2020 e de 2023, é só sobrescrever no respectivo json).
 
 se algum json estiver com erro, bot nem sobe. assim dá pra ver qual é o problema
 """
@@ -32,7 +33,13 @@ def _carregar_catalogo():
     repetidos = {i for i in ids if ids.count(i) > 1}
     if repetidos:
         raise ValueError(f"[disciplinas.json] ids repetidos: {repetidos}")
-    return {d["id"]: d for d in lista}
+    catalogo = {d["id"]: d for d in lista}
+    for d in lista:
+        for campo in ("pre_requisitos", "tranca"):
+            for ref in d.get(campo, []):
+                if ref not in catalogo:
+                    raise ValueError(f"[disciplinas.json] '{d['id']}' tem '{ref}' em {campo}, mas esse id não existe")
+    return catalogo
 
 
 def _carregar_matrizes():
@@ -54,7 +61,9 @@ def _validar(catalogo, matrizes):
         for entrada in matriz["disciplinas"]:
             if entrada["id"] not in catalogo:
                 raise ValueError(f"[{mid}] '{entrada['id']}' não existe em disciplinas.json")
-            for pre in entrada.get("pre_requisitos", []):
+            # pré-requisitos vêm do catálogo (a matriz pode sobrescrever)
+            juntada = {**catalogo[entrada["id"]], **entrada}
+            for pre in juntada.get("pre_requisitos", []):
                 if pre not in ids:
                     raise ValueError(f"[{mid}] '{entrada['id']}' tem pré-requisito que não está na matriz: '{pre}'")
 
@@ -85,7 +94,7 @@ def disciplinas_da_matriz(matriz_id):
 
 
 def disciplinas_do_periodo(matriz_id, periodo):
-    return [d for d in disciplinas_da_matriz(matriz_id) if d["periodo"] == periodo]
+    return [d for d in disciplinas_da_matriz(matriz_id) if d.get("periodo") == periodo]
 
 
 def get_disciplina(matriz_id, disc_id):

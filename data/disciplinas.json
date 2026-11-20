@@ -14,8 +14,8 @@
         "1º semestre"
       ],
       "pre_requisitos": [],
-      "prende": [
-        "Arquitetura de Computadores (TN712)"
+      "tranca": [
+        "arquitetura-de-computadores"
       ]
     },
     {
@@ -32,7 +32,7 @@
         "1º semestre"
       ],
       "pre_requisitos": [],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "geometria-analitica",
@@ -49,8 +49,8 @@
         "2º semestre"
       ],
       "pre_requisitos": [],
-      "prende": [
-        "Álgebra Linear (IM429)"
+      "tranca": [
+        "algebra-linear"
       ]
     },
     {
@@ -67,7 +67,7 @@
         "1º semestre"
       ],
       "pre_requisitos": [],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "matematica-discreta",
@@ -84,9 +84,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [],
-      "prende": [
-        "Probabilidade e Estatística para Ciência da Computação (IM859)",
-        "Teoria dos Grafos (TN749)"
+      "tranca": [
+        "probabilidade-e-estatistica-para-ciencia-da-computacao",
+        "teoria-dos-grafos"
       ]
     },
     {
@@ -104,9 +104,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [],
-      "prende": [
-        "Estruturas de Dados I (TN711)",
-        "Programação Orientada a Objetos (TN717)"
+      "tranca": [
+        "estruturas-de-dados-1",
+        "programacao-orientada-a-objetos"
       ]
     },
     {
@@ -124,14 +124,14 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Geometria Analítica (IM885)"
+        "geometria-analitica"
       ],
-      "prende": [
-        "Álgebra Linear Computacional (IM478)",
-        "Computação Gráfica (TM421)",
-        "Otimização Linear (TN728)",
-        "Introdução à Teoria das Redes de Petri (TM431)",
-        "Processamento de Imagens (TM438)"
+      "tranca": [
+        "algebra-linear-computacional",
+        "computacao-grafica",
+        "otimizacao-linear",
+        "introducao-a-teoria-das-redes-de-petri",
+        "processamento-de-imagens"
       ]
     },
     {
@@ -149,8 +149,8 @@
         "2º semestre"
       ],
       "pre_requisitos": [],
-      "prende": [
-        "Cálculo II (IM404)"
+      "tranca": [
+        "calculo-2"
       ]
     },
     {
@@ -167,13 +167,13 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Programação Estruturada (TN706)"
+        "programacao-estruturada"
       ],
-      "prende": [
-        "Computação Gráfica (TM421)",
-        "Estruturas de Dados II (TN730)",
-        "Inteligência Artificial (TN724)",
-        "Banco de Dados II (TN735)"
+      "tranca": [
+        "computacao-grafica",
+        "estruturas-de-dados-2",
+        "inteligencia-artificial",
+        "banco-de-dados-2"
       ]
     },
     {
@@ -190,15 +190,15 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Circuitos Digitais (IM853)"
+        "circuitos-digitais"
       ],
-      "prende": [
-        "Sistemas Operacionais (IM868)",
-        "Programação Paralela e Distribuída (TM435)",
-        "Computação de Alto Desempenho (TN741)",
-        "Algoritmos Paralelos e Distribuídos (TM436)",
-        "Programação em GPU (TN742)",
-        "Arquitetura de Computadores II (TN748)"
+      "tranca": [
+        "sistemas-operacionais",
+        "programacao-paralela-e-distribuida",
+        "computacao-de-alto-desempenho",
+        "algoritmos-paralelos-e-distribuidos",
+        "programacao-em-gpu",
+        "arquitetura-de-computadores-2"
       ]
     },
     {
@@ -215,8 +215,8 @@
         "2º semestre"
       ],
       "pre_requisitos": [],
-      "prende": [
-        "Inteligência Artificial (TN724)"
+      "tranca": [
+        "inteligencia-artificial"
       ]
     },
     {
@@ -234,10 +234,10 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Álgebra Linear (IM429)"
+        "algebra-linear"
       ],
-      "prende": [
-        "Aprendizado de Máquina (TN745)"
+      "tranca": [
+        "aprendizado-de-maquina"
       ]
     },
     {
@@ -254,14 +254,14 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Cálculo I (IM403)"
+        "calculo-1"
       ],
-      "prende": [
-        "Cálculo III (IM425)",
-        "Física para Ciência da Computação (TM407)",
-        "Probabilidade e Estatística para Ciência da Computação (IM859)",
-        "Métodos Numéricos (TN726)",
-        "Aprendizado de Máquina (TN745)"
+      "tranca": [
+        "calculo-3",
+        "fisica-para-ciencia-da-computacao",
+        "probabilidade-e-estatistica-para-ciencia-da-computacao",
+        "metodos-numericos",
+        "aprendizado-de-maquina"
       ]
     },
     {
@@ -279,9 +279,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Cálculo II (IM404)"
+        "calculo-2"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "fisica-para-ciencia-da-computacao",
@@ -297,9 +297,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Cálculo II (IM404)"
+        "calculo-2"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "probabilidade-e-estatistica-para-ciencia-da-computacao",
@@ -316,11 +316,11 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Matemática Discreta (TN705)",
-        "Cálculo II (IM404)"
+        "matematica-discreta",
+        "calculo-2"
       ],
-      "prende": [
-        "Aprendizado de Máquina (TN745)"
+      "tranca": [
+        "aprendizado-de-maquina"
       ]
     },
     {
@@ -338,12 +338,12 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Programação Estruturada (TN706)"
+        "programacao-estruturada"
       ],
-      "prende": [
-        "Linguagens de Programação (TN720)",
-        "Tópicos Especiais em Otimização (TN751)",
-        "Teoria dos Jogos Algorítmica (TN739)"
+      "tranca": [
+        "linguagens-de-programacao",
+        "topicos-especiais-em-otimizacao",
+        "teoria-dos-jogos-algoritmica"
       ]
     },
     {
@@ -360,9 +360,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Grafos e Algoritmos (TN718)"
+        "grafos-e-algoritmos"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "banco-de-dados",
@@ -378,9 +378,9 @@
         "1º semestre"
       ],
       "pre_requisitos": [],
-      "prende": [
-        "Introdução à Web Semântica (TN736)",
-        "Inteligência de Negócios (TN747)"
+      "tranca": [
+        "introducao-a-web-semantica",
+        "inteligencia-de-negocios"
       ]
     },
     {
@@ -397,10 +397,10 @@
         "1º semestre"
       ],
       "pre_requisitos": [
-        "Linguagens Formais e Autômatos (TN715)",
-        "Linguagens de Programação (TN720)"
+        "linguagens-formais-e-automatos",
+        "linguagens-de-programacao"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "computacao-grafica",
@@ -416,10 +416,10 @@
         "1º semestre"
       ],
       "pre_requisitos": [
-        "Estruturas de Dados I (TN711)",
-        "Álgebra Linear (IM429)"
+        "estruturas-de-dados-1",
+        "algebra-linear"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "engenharia-de-software-1",
@@ -435,15 +435,15 @@
         "2º semestre"
       ],
       "pre_requisitos": [],
-      "prende": [
-        "Modelagem e Projeto de Software (TN716)",
-        "Engenharia de Software II (TN719)",
-        "Arquitetura de Software (TN721)",
-        "Engenharia de Requisitos (TN734)",
-        "Interação Humano-Computador (TN733)",
-        "Gerência de Projetos (TN731)",
-        "Medição e Qualidade de Software (TN732)",
-        "Gestão de Processos (TN755)"
+      "tranca": [
+        "modelagem-e-projeto-de-software",
+        "engenharia-de-software-2",
+        "arquitetura-de-software",
+        "engenharia-de-requisitos",
+        "interacao-humano-computador",
+        "gerencia-de-projetos",
+        "medicao-e-qualidade-de-software",
+        "gestao-de-processos"
       ]
     },
     {
@@ -460,9 +460,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Estruturas de Dados I (TN711)"
+        "estruturas-de-dados-1"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "grafos-e-algoritmos",
@@ -479,12 +479,12 @@
         "2º semestre"
       ],
       "pre_requisitos": [],
-      "prende": [
-        "Análise e Projeto de Algoritmos (TN723)",
-        "Tópicos Especiais em Grafos e Algoritmos (TN740)",
-        "Introdução à Teoria das Redes de Petri (TM431)",
-        "Modelagem de Software com Redes de Petri (TM432)",
-        "Modelagem e Análise Formal de Processos de Negócio (TN722)"
+      "tranca": [
+        "analise-e-projeto-de-algoritmos",
+        "topicos-especiais-em-grafos-e-algoritmos",
+        "introducao-a-teoria-das-redes-de-petri",
+        "modelagem-de-software-com-redes-de-petri",
+        "modelagem-e-analise-formal-de-processos-de-negocio"
       ]
     },
     {
@@ -501,12 +501,12 @@
         "1º semestre"
       ],
       "pre_requisitos": [
-        "Estruturas de Dados I (TN711)",
-        "Lógica (TN709)"
+        "estruturas-de-dados-1",
+        "logica"
       ],
-      "prende": [
-        "Mineração de Dados (TM434)",
-        "Busca e Recuperação de Informação (TM444)"
+      "tranca": [
+        "mineracao-de-dados",
+        "busca-e-recuperacao-de-informacao"
       ]
     },
     {
@@ -523,10 +523,10 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Programação Orientada a Objetos (TN717)"
+        "programacao-orientada-a-objetos"
       ],
-      "prende": [
-        "Compiladores (TN725)"
+      "tranca": [
+        "compiladores"
       ]
     },
     {
@@ -543,8 +543,8 @@
         "1º semestre"
       ],
       "pre_requisitos": [],
-      "prende": [
-        "Compiladores (TN725)"
+      "tranca": [
+        "compiladores"
       ]
     },
     {
@@ -562,9 +562,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Cálculo II (IM404)"
+        "calculo-2"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "modelagem-e-projeto-de-software",
@@ -580,12 +580,12 @@
         "1º semestre"
       ],
       "pre_requisitos": [
-        "Engenharia de Software I (TN710)"
+        "engenharia-de-software-1"
       ],
-      "prende": [
-        "Arquitetura de Software (TN721)",
-        "Modelagem de Software com Redes de Petri (TM432)",
-        "Modelagem e Análise Formal de Processos de Negócio (TN722)"
+      "tranca": [
+        "arquitetura-de-software",
+        "modelagem-de-software-com-redes-de-petri",
+        "modelagem-e-analise-formal-de-processos-de-negocio"
       ]
     },
     {
@@ -602,11 +602,11 @@
         "1º semestre"
       ],
       "pre_requisitos": [
-        "Álgebra Linear (IM429)"
+        "algebra-linear"
       ],
-      "prende": [
-        "Otimização Combinatória (TN750)",
-        "Introdução à Pesquisa Operacional (TN738)"
+      "tranca": [
+        "otimizacao-combinatoria",
+        "introducao-a-pesquisa-operacional"
       ]
     },
     {
@@ -623,9 +623,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [],
-      "prende": [
-        "Redes de Computadores Sem Fio (TM430)",
-        "Roteamento em Redes de Computadores (TN744)"
+      "tranca": [
+        "redes-de-computadores-sem-fio",
+        "roteamento-em-redes-de-computadores"
       ]
     },
     {
@@ -642,14 +642,14 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Arquitetura de Computadores (TN712)"
+        "arquitetura-de-computadores"
       ],
-      "prende": [
-        "Programação Paralela e Distribuída (TM435)",
-        "Computação de Alto Desempenho (TN741)",
-        "Algoritmos Paralelos e Distribuídos (TM436)",
-        "Programação em GPU (TN742)",
-        "Introdução a Dispositivos Móveis (TN743)"
+      "tranca": [
+        "programacao-paralela-e-distribuida",
+        "computacao-de-alto-desempenho",
+        "algoritmos-paralelos-e-distribuidos",
+        "programacao-em-gpu",
+        "introducao-a-dispositivos-moveis"
       ]
     },
     {
@@ -666,9 +666,9 @@
         "1º semestre"
       ],
       "pre_requisitos": [
-        "Matemática Discreta (TN705)"
+        "matematica-discreta"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "topicos-especiais-em-grafos-e-algoritmos",
@@ -684,9 +684,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Grafos e Algoritmos (TN718)"
+        "grafos-e-algoritmos"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "topicos-especiais-em-otimizacao",
@@ -702,10 +702,10 @@
         "1º semestre"
       ],
       "pre_requisitos": [
-        "Programação Orientada a Objetos (TN717)"
+        "programacao-orientada-a-objetos"
       ],
-      "prende": [
-        "Introdução a Biologia Computacional (TN737)"
+      "tranca": [
+        "introducao-a-biologia-computacional"
       ]
     },
     {
@@ -722,9 +722,9 @@
         "❌"
       ],
       "pre_requisitos": [
-        "Otimização Linear (TN728)"
+        "otimizacao-linear"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "introducao-a-pesquisa-operacional",
@@ -740,9 +740,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Otimização Linear (TN728)"
+        "otimizacao-linear"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "teoria-dos-jogos-algoritmica",
@@ -758,9 +758,9 @@
         "❌"
       ],
       "pre_requisitos": [
-        "Programação Orientada a Objetos (TN717)"
+        "programacao-orientada-a-objetos"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "introducao-a-biologia-computacional",
@@ -776,9 +776,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Tópicos Especiais em Otimização (TN751)"
+        "topicos-especiais-em-otimizacao"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "introducao-aos-sistemas-de-informacao",
@@ -794,7 +794,7 @@
         "❌"
       ],
       "pre_requisitos": [],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "engenharia-de-software-2",
@@ -810,9 +810,9 @@
         "❌"
       ],
       "pre_requisitos": [
-        "Engenharia de Software I (TN710)"
+        "engenharia-de-software-1"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "arquitetura-de-software",
@@ -828,10 +828,10 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Modelagem e Projeto de Software (TN716)",
-        "Engenharia de Software I (TN710)"
+        "modelagem-e-projeto-de-software",
+        "engenharia-de-software-1"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "engenharia-de-requisitos",
@@ -847,9 +847,9 @@
         "1º semestre"
       ],
       "pre_requisitos": [
-        "Engenharia de Software I (TN710)"
+        "engenharia-de-software-1"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "interacao-humano-computador",
@@ -865,9 +865,9 @@
         "❌"
       ],
       "pre_requisitos": [
-        "Engenharia de Software I (TN710)"
+        "engenharia-de-software-1"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "gerencia-de-projetos",
@@ -884,9 +884,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Engenharia de Software I (TN710)"
+        "engenharia-de-software-1"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "medicao-e-qualidade-de-software",
@@ -902,9 +902,9 @@
         "1º semestre"
       ],
       "pre_requisitos": [
-        "Engenharia de Software I (TN710)"
+        "engenharia-de-software-1"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "gestao-de-processos",
@@ -920,9 +920,9 @@
         "❌"
       ],
       "pre_requisitos": [
-        "Engenharia de Software I (TN710)"
+        "engenharia-de-software-1"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "introducao-a-engenharia-de-software-experimental",
@@ -938,7 +938,7 @@
         "1º semestre"
       ],
       "pre_requisitos": [],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "governanca-de-tecnologia-da-informacao",
@@ -954,7 +954,7 @@
         "2º semestre"
       ],
       "pre_requisitos": [],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "empreendedorismo-em-informatica",
@@ -970,7 +970,7 @@
         "1º semestre"
       ],
       "pre_requisitos": [],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "banco-de-dados-2",
@@ -986,9 +986,9 @@
         "❌"
       ],
       "pre_requisitos": [
-        "Estruturas de Dados I (TN711)"
+        "estruturas-de-dados-1"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "introducao-a-web-semantica",
@@ -1004,9 +1004,9 @@
         "❌"
       ],
       "pre_requisitos": [
-        "Banco de Dados (TN727)"
+        "banco-de-dados"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "inteligencia-de-negocios",
@@ -1022,9 +1022,9 @@
         "❌"
       ],
       "pre_requisitos": [
-        "Banco de Dados (TN727)"
+        "banco-de-dados"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "introducao-a-teoria-das-redes-de-petri",
@@ -1040,10 +1040,10 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Álgebra Linear (IM429)",
-        "Grafos e Algoritmos (TN718)"
+        "algebra-linear",
+        "grafos-e-algoritmos"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "modelagem-de-software-com-redes-de-petri",
@@ -1059,10 +1059,10 @@
         "❌"
       ],
       "pre_requisitos": [
-        "Modelagem e Projeto de Software (TN716)",
-        "Grafos e Algoritmos (TN718)"
+        "modelagem-e-projeto-de-software",
+        "grafos-e-algoritmos"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "modelagem-e-analise-formal-de-processos-de-negocio",
@@ -1078,10 +1078,10 @@
         "❌"
       ],
       "pre_requisitos": [
-        "Modelagem e Projeto de Software (TN716)",
-        "Grafos e Algoritmos (TN718)"
+        "modelagem-e-projeto-de-software",
+        "grafos-e-algoritmos"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "programacao-paralela-e-distribuida",
@@ -1097,10 +1097,10 @@
         "1º semestre"
       ],
       "pre_requisitos": [
-        "Arquitetura de Computadores (TN712)",
-        "Sistemas Operacionais (IM868)"
+        "arquitetura-de-computadores",
+        "sistemas-operacionais"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "computacao-de-alto-desempenho",
@@ -1116,10 +1116,10 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Arquitetura de Computadores (TN712)",
-        "Sistemas Operacionais (IM868)"
+        "arquitetura-de-computadores",
+        "sistemas-operacionais"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "algoritmos-paralelos-e-distribuidos",
@@ -1135,10 +1135,10 @@
         "❌"
       ],
       "pre_requisitos": [
-        "Arquitetura de Computadores (TN712)",
-        "Sistemas Operacionais (IM868)"
+        "arquitetura-de-computadores",
+        "sistemas-operacionais"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "programacao-em-gpu",
@@ -1154,10 +1154,10 @@
         "❌"
       ],
       "pre_requisitos": [
-        "Arquitetura de Computadores (TN712)",
-        "Sistemas Operacionais (IM868)"
+        "arquitetura-de-computadores",
+        "sistemas-operacionais"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "arquitetura-de-computadores-2",
@@ -1173,9 +1173,9 @@
         "❌"
       ],
       "pre_requisitos": [
-        "Arquitetura de Computadores (TN712)"
+        "arquitetura-de-computadores"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "introducao-a-dispositivos-moveis",
@@ -1191,9 +1191,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Sistemas Operacionais (IM868)"
+        "sistemas-operacionais"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "redes-de-computadores-sem-fio",
@@ -1209,9 +1209,9 @@
         "1º semestre"
       ],
       "pre_requisitos": [
-        "Redes e Sistemas Distribuídos (TN729)"
+        "redes-e-sistemas-distribuidos"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "roteamento-em-redes-de-computadores",
@@ -1227,9 +1227,9 @@
         "❌"
       ],
       "pre_requisitos": [
-        "Redes e Sistemas Distribuídos (TN729)"
+        "redes-e-sistemas-distribuidos"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "aprendizado-de-maquina",
@@ -1246,14 +1246,14 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Cálculo II (IM404)",
-        "Álgebra Linear Computacional (IM478)",
-        "Probabilidade e Estatística para Ciência da Computação (IM859)"
+        "calculo-2",
+        "algebra-linear-computacional",
+        "probabilidade-e-estatistica-para-ciencia-da-computacao"
       ],
-      "prende": [
-        "Redes Neurais Artificiais (TN746)",
-        "Processamento de Linguagem Natural (TM441)",
-        "Introdução à Teoria de Sistemas de Recomendação (TM429)"
+      "tranca": [
+        "redes-neurais-artificiais",
+        "processamento-de-linguagem-natural",
+        "introducao-a-teoria-de-sistemas-de-recomendacao"
       ]
     },
     {
@@ -1270,9 +1270,9 @@
         "1º semestre"
       ],
       "pre_requisitos": [
-        "Aprendizado de Máquina (TN745)"
+        "aprendizado-de-maquina"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "mineracao-de-dados",
@@ -1288,9 +1288,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Inteligência Artificial (TN724)"
+        "inteligencia-artificial"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "processamento-de-linguagem-natural",
@@ -1306,9 +1306,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Aprendizado de Máquina (TN745)"
+        "aprendizado-de-maquina"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "processamento-de-imagens",
@@ -1324,9 +1324,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Álgebra Linear (IM429)"
+        "algebra-linear"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "introducao-a-teoria-de-sistemas-de-recomendacao",
@@ -1342,9 +1342,9 @@
         "1º semestre"
       ],
       "pre_requisitos": [
-        "Aprendizado de Máquina (TN745)"
+        "aprendizado-de-maquina"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "busca-e-recuperacao-de-informacao",
@@ -1360,9 +1360,9 @@
         "2º semestre"
       ],
       "pre_requisitos": [
-        "Inteligência Artificial (TN724)"
+        "inteligencia-artificial"
       ],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "lingua-brasileira-de-sinais",
@@ -1378,7 +1378,7 @@
         "❌"
       ],
       "pre_requisitos": [],
-      "prende": []
+      "tranca": []
     },
     {
       "id": "cultura-afro-brasileira-e-africana",
@@ -1394,7 +1394,7 @@
         "2º semestre"
       ],
       "pre_requisitos": [],
-      "prende": []
+      "tranca": []
     }
   ]
 }

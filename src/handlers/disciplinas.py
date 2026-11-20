@@ -51,7 +51,7 @@ def menu_materias(matriz_id, periodo):
 """----------------- TELA GENÉRICA DA DISCIPLINA -----------------
 essa "interface" é a base pra tela de todas as disciplinas. ela é montada a partir do catálogo + dados da matriz.
 caso a disciplina não exista na matriz, o usuário é informado e pode voltar ao menu de ajuda.
-para alterar o conteúdo de uma disciplina, basta editar o arquivo `data/disciplinas.json`. 
+para alterar o conteúdo de uma disciplina, basta editar o arquivo `data/disciplinas.json`.
 não altere o arquivo da matriz, pois ele é apenas um "mapa" de ids de disciplinas.
 """
 
@@ -68,7 +68,16 @@ def montar_texto(matriz_id, disc):
     if disc.get("contato"):
         linhas.append(f"**Contato:** {disc['contato']}")
 
-    # TODO : mostrar carga_horaria, oferta, e usar dados.pre_requisitos(...) e dados.dependentes(...) e tal
+    if disc.get("carga_horaria"):
+        linhas.append(f"**Carga horária:** {disc['carga_horaria']}h")
+    if disc.get("oferta"):
+        linhas.append(f"**Oferta:** {', '.join(disc['oferta'])}")
+
+    pre = dados.pre_requisitos(matriz_id, disc["id"])
+    linhas.append("**Pré-requisitos:** " + (", ".join(p["nome"] for p in pre) if pre else "nenhum"))
+
+    trancadas = dados.dependentes(matriz_id, disc["id"])
+    linhas.append("**Tranca:** " + (", ".join(d["nome"] for d in trancadas) if trancadas else "nenhuma"))
 
     return "\n".join(linhas)
 
@@ -77,7 +86,12 @@ def montar_botoes(matriz_id, disc):
     markup = types.InlineKeyboardMarkup()
     if disc.get("playlist"):
         markup.add(types.InlineKeyboardButton("📺 Playlist Recomendada", url=disc["playlist"]))
-    markup.add(types.InlineKeyboardButton("⬅️ Voltar", callback_data=f"pd|{matriz_id}|{disc['periodo']}"))
+    # disciplina sem período definido na matriz volta pra lista de períodos
+    if disc.get("periodo"):
+        voltar = f"pd|{matriz_id}|{disc['periodo']}"
+    else:
+        voltar = f"mz|{matriz_id}"
+    markup.add(types.InlineKeyboardButton("⬅️ Voltar", callback_data=voltar))
     return markup
 
 
