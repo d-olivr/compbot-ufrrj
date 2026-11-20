@@ -2,62 +2,298 @@
   "id": "2023",
   "nome": "Matriz 2023",
   "total_periodos": 8,
-  
   "disciplinas": [
     {
       "id": "circuitos-digitais",
-      "periodo": 1,
-      "pre_requisitos": []
+      "periodo": 1
     },
     {
       "id": "computadores-e-sociedade",
-      "periodo": 1,
-      "pre_requisitos": []
+      "periodo": 1
     },
     {
       "id": "geometria-analitica",
-      "periodo": 1,
-      "pre_requisitos": []
+      "periodo": 1
     },
     {
       "id": "icc",
-      "periodo": 1,
-      "pre_requisitos": []
+      "periodo": 1
     },
     {
       "id": "matematica-discreta",
-      "periodo": 1,
-      "pre_requisitos": []
+      "periodo": 1
     },
     {
       "id": "programacao-estruturada",
-      "periodo": 1,
-      "pre_requisitos": []
+      "periodo": 1
     },
     {
       "id": "algebra-linear",
-      "periodo": 2,
-      "pre_requisitos": []
+      "periodo": 2
     },
     {
       "id": "calculo-1",
-      "periodo": 2,
-      "pre_requisitos": []
+      "periodo": 2
     },
     {
       "id": "estruturas-de-dados-1",
-      "periodo": 2,
-      "pre_requisitos": []
+      "periodo": 2
     },
     {
       "id": "arquitetura-de-computadores",
-      "periodo": 2,
-      "pre_requisitos": []
+      "periodo": 2
     },
     {
       "id": "logica",
-      "periodo": 2,
-      "pre_requisitos": []
+      "periodo": 2
+    },
+    {
+      "id": "algebra-linear-computacional",
+      "periodo": 3
+    },
+    {
+      "id": "calculo-2",
+      "periodo": 3
+    },
+    {
+      "id": "calculo-3",
+      "periodo": 4
+    },
+    {
+      "id": "fisica-para-ciencia-da-computacao",
+      "periodo": 4
+    },
+    {
+      "id": "probabilidade-e-estatistica-para-ciencia-da-computacao",
+      "periodo": 4
+    },
+    {
+      "id": "programacao-orientada-a-objetos",
+      "periodo": 3
+    },
+    {
+      "id": "analise-e-projeto-de-algoritmos",
+      "periodo": 4
+    },
+    {
+      "id": "banco-de-dados",
+      "periodo": 5
+    },
+    {
+      "id": "compiladores",
+      "periodo": 5
+    },
+    {
+      "id": "computacao-grafica",
+      "periodo": 5
+    },
+    {
+      "id": "engenharia-de-software-1",
+      "periodo": 2
+    },
+    {
+      "id": "estruturas-de-dados-2",
+      "periodo": 6
+    },
+    {
+      "id": "grafos-e-algoritmos",
+      "periodo": 3
+    },
+    {
+      "id": "inteligencia-artificial",
+      "periodo": 5
+    },
+    {
+      "id": "linguagens-de-programacao",
+      "periodo": 4
+    },
+    {
+      "id": "linguagens-formais-e-automatos",
+      "periodo": 3
+    },
+    {
+      "id": "metodos-numericos",
+      "periodo": 5
+    },
+    {
+      "id": "modelagem-e-projeto-de-software",
+      "periodo": 3
+    },
+    {
+      "id": "otimizacao-linear",
+      "periodo": 5
+    },
+    {
+      "id": "redes-e-sistemas-distribuidos",
+      "periodo": 6
+    },
+    {
+      "id": "sistemas-operacionais",
+      "periodo": 4
+    },
+    {
+      "id": "teoria-dos-grafos",
+      "periodo": null
+    },
+    {
+      "id": "topicos-especiais-em-grafos-e-algoritmos",
+      "periodo": null
+    },
+    {
+      "id": "topicos-especiais-em-otimizacao",
+      "periodo": null
+    },
+    {
+      "id": "otimizacao-combinatoria",
+      "periodo": null
+    },
+    {
+      "id": "introducao-a-pesquisa-operacional",
+      "periodo": null
+    },
+    {
+      "id": "teoria-dos-jogos-algoritmica",
+      "periodo": null
+    },
+    {
+      "id": "introducao-a-biologia-computacional",
+      "periodo": null
+    },
+    {
+      "id": "introducao-aos-sistemas-de-informacao",
+      "periodo": null
+    },
+    {
+      "id": "engenharia-de-software-2",
+      "periodo": null
+    },
+    {
+      "id": "arquitetura-de-software",
+      "periodo": null
+    },
+    {
+      "id": "engenharia-de-requisitos",
+      "periodo": null
+    },
+    {
+      "id": "interacao-humano-computador",
+      "periodo": null
+    },
+    {
+      "id": "gerencia-de-projetos",
+      "periodo": null
+    },
+    {
+      "id": "medicao-e-qualidade-de-software",
+      "periodo": null
+    },
+    {
+      "id": "gestao-de-processos",
+      "periodo": null
+    },
+    {
+      "id": "introducao-a-engenharia-de-software-experimental",
+      "periodo": null
+    },
+    {
+      "id": "governanca-de-tecnologia-da-informacao",
+      "periodo": null
+    },
+    {
+      "id": "empreendedorismo-em-informatica",
+      "periodo": null
+    },
+    {
+      "id": "banco-de-dados-2",
+      "periodo": null
+    },
+    {
+      "id": "introducao-a-web-semantica",
+      "periodo": null
+    },
+    {
+      "id": "inteligencia-de-negocios",
+      "periodo": null
+    },
+    {
+      "id": "introducao-a-teoria-das-redes-de-petri",
+      "periodo": null
+    },
+    {
+      "id": "modelagem-de-software-com-redes-de-petri",
+      "periodo": null
+    },
+    {
+      "id": "modelagem-e-analise-formal-de-processos-de-negocio",
+      "periodo": null
+    },
+    {
+      "id": "programacao-paralela-e-distribuida",
+      "periodo": null
+    },
+    {
+      "id": "computacao-de-alto-desempenho",
+      "periodo": null
+    },
+    {
+      "id": "algoritmos-paralelos-e-distribuidos",
+      "periodo": null
+    },
+    {
+      "id": "programacao-em-gpu",
+      "periodo": null
+    },
+    {
+      "id": "arquitetura-de-computadores-2",
+      "periodo": null
+    },
+    {
+      "id": "introducao-a-dispositivos-moveis",
+      "periodo": null
+    },
+    {
+      "id": "redes-de-computadores-sem-fio",
+      "periodo": null
+    },
+    {
+      "id": "roteamento-em-redes-de-computadores",
+      "periodo": null
+    },
+    {
+      "id": "aprendizado-de-maquina",
+      "periodo": null
+    },
+    {
+      "id": "redes-neurais-artificiais",
+      "periodo": null
+    },
+    {
+      "id": "mineracao-de-dados",
+      "periodo": null
+    },
+    {
+      "id": "processamento-de-linguagem-natural",
+      "periodo": null
+    },
+    {
+      "id": "processamento-de-imagens",
+      "periodo": null
+    },
+    {
+      "id": "introducao-a-teoria-de-sistemas-de-recomendacao",
+      "periodo": null
+    },
+    {
+      "id": "busca-e-recuperacao-de-informacao",
+      "periodo": null
+    },
+    {
+      "id": "lingua-brasileira-de-sinais",
+      "periodo": null
+    },
+    {
+      "id": "cultura-afro-brasileira-e-africana",
+      "periodo": null
     }
   ]
 }

@@ -12,6 +12,10 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
+      ],
+      "pre_requisitos": [],
+      "prende": [
+        "Arquitetura de Computadores (TN712)"
       ]
     },
     {
@@ -26,7 +30,9 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
-      ]
+      ],
+      "pre_requisitos": [],
+      "prende": []
     },
     {
       "id": "geometria-analitica",
@@ -41,6 +47,10 @@
       "oferta": [
         "1º semestre",
         "2º semestre"
+      ],
+      "pre_requisitos": [],
+      "prende": [
+        "Álgebra Linear (IM429)"
       ]
     },
     {
@@ -55,7 +65,9 @@
       "carga_horaria": 30,
       "oferta": [
         "1º semestre"
-      ]
+      ],
+      "pre_requisitos": [],
+      "prende": []
     },
     {
       "id": "matematica-discreta",
@@ -70,6 +82,11 @@
       "oferta": [
         "1º semestre",
         "2º semestre"
+      ],
+      "pre_requisitos": [],
+      "prende": [
+        "Probabilidade e Estatística para Ciência da Computação (IM859)",
+        "Teoria dos Grafos (TN749)"
       ]
     },
     {
@@ -85,6 +102,11 @@
       "oferta": [
         "1º semestre",
         "2º semestre"
+      ],
+      "pre_requisitos": [],
+      "prende": [
+        "Estruturas de Dados I (TN711)",
+        "Programação Orientada a Objetos (TN717)"
       ]
     },
     {
@@ -100,6 +122,16 @@
       "oferta": [
         "1º semestre",
         "2º semestre"
+      ],
+      "pre_requisitos": [
+        "Geometria Analítica (IM885)"
+      ],
+      "prende": [
+        "Álgebra Linear Computacional (IM478)",
+        "Computação Gráfica (TM421)",
+        "Otimização Linear (TN728)",
+        "Introdução à Teoria das Redes de Petri (TM431)",
+        "Processamento de Imagens (TM438)"
       ]
     },
     {
@@ -115,6 +147,10 @@
       "oferta": [
         "1º semestre",
         "2º semestre"
+      ],
+      "pre_requisitos": [],
+      "prende": [
+        "Cálculo II (IM404)"
       ]
     },
     {
@@ -129,6 +165,15 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
+      ],
+      "pre_requisitos": [
+        "Programação Estruturada (TN706)"
+      ],
+      "prende": [
+        "Computação Gráfica (TM421)",
+        "Estruturas de Dados II (TN730)",
+        "Inteligência Artificial (TN724)",
+        "Banco de Dados II (TN735)"
       ]
     },
     {
@@ -143,6 +188,17 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
+      ],
+      "pre_requisitos": [
+        "Circuitos Digitais (IM853)"
+      ],
+      "prende": [
+        "Sistemas Operacionais (IM868)",
+        "Programação Paralela e Distribuída (TM435)",
+        "Computação de Alto Desempenho (TN741)",
+        "Algoritmos Paralelos e Distribuídos (TM436)",
+        "Programação em GPU (TN742)",
+        "Arquitetura de Computadores II (TN748)"
       ]
     },
     {
@@ -157,6 +213,10 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
+      ],
+      "pre_requisitos": [],
+      "prende": [
+        "Inteligência Artificial (TN724)"
       ]
     },
     {
@@ -172,6 +232,12 @@
       "oferta": [
         "1º semestre",
         "2º semestre"
+      ],
+      "pre_requisitos": [
+        "Álgebra Linear (IM429)"
+      ],
+      "prende": [
+        "Aprendizado de Máquina (TN745)"
       ]
     },
     {
@@ -186,6 +252,16 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
+      ],
+      "pre_requisitos": [
+        "Cálculo I (IM403)"
+      ],
+      "prende": [
+        "Cálculo III (IM425)",
+        "Física para Ciência da Computação (TM407)",
+        "Probabilidade e Estatística para Ciência da Computação (IM859)",
+        "Métodos Numéricos (TN726)",
+        "Aprendizado de Máquina (TN745)"
       ]
     },
     {
@@ -201,7 +277,11 @@
       "oferta": [
         "1º semestre",
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Cálculo II (IM404)"
+      ],
+      "prende": []
     },
     {
       "id": "fisica-para-ciencia-da-computacao",
@@ -215,7 +295,11 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Cálculo II (IM404)"
+      ],
+      "prende": []
     },
     {
       "id": "probabilidade-e-estatistica-para-ciencia-da-computacao",
@@ -230,6 +314,13 @@
       "oferta": [
         "1º semestre",
         "2º semestre"
+      ],
+      "pre_requisitos": [
+        "Matemática Discreta (TN705)",
+        "Cálculo II (IM404)"
+      ],
+      "prende": [
+        "Aprendizado de Máquina (TN745)"
       ]
     },
     {
@@ -245,6 +336,14 @@
       "oferta": [
         "1º semestre",
         "2º semestre"
+      ],
+      "pre_requisitos": [
+        "Programação Estruturada (TN706)"
+      ],
+      "prende": [
+        "Linguagens de Programação (TN720)",
+        "Tópicos Especiais em Otimização (TN751)",
+        "Teoria dos Jogos Algorítmica (TN739)"
       ]
     },
     {
@@ -259,7 +358,11 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Grafos e Algoritmos (TN718)"
+      ],
+      "prende": []
     },
     {
       "id": "banco-de-dados",
@@ -273,6 +376,11 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
+      ],
+      "pre_requisitos": [],
+      "prende": [
+        "Introdução à Web Semântica (TN736)",
+        "Inteligência de Negócios (TN747)"
       ]
     },
     {
@@ -287,7 +395,12 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Linguagens Formais e Autômatos (TN715)",
+        "Linguagens de Programação (TN720)"
+      ],
+      "prende": []
     },
     {
       "id": "computacao-grafica",
@@ -301,7 +414,12 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Estruturas de Dados I (TN711)",
+        "Álgebra Linear (IM429)"
+      ],
+      "prende": []
     },
     {
       "id": "engenharia-de-software-1",
@@ -315,6 +433,17 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
+      ],
+      "pre_requisitos": [],
+      "prende": [
+        "Modelagem e Projeto de Software (TN716)",
+        "Engenharia de Software II (TN719)",
+        "Arquitetura de Software (TN721)",
+        "Engenharia de Requisitos (TN734)",
+        "Interação Humano-Computador (TN733)",
+        "Gerência de Projetos (TN731)",
+        "Medição e Qualidade de Software (TN732)",
+        "Gestão de Processos (TN755)"
       ]
     },
     {
@@ -329,7 +458,11 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Estruturas de Dados I (TN711)"
+      ],
+      "prende": []
     },
     {
       "id": "grafos-e-algoritmos",
@@ -344,6 +477,14 @@
       "oferta": [
         "1º semestre",
         "2º semestre"
+      ],
+      "pre_requisitos": [],
+      "prende": [
+        "Análise e Projeto de Algoritmos (TN723)",
+        "Tópicos Especiais em Grafos e Algoritmos (TN740)",
+        "Introdução à Teoria das Redes de Petri (TM431)",
+        "Modelagem de Software com Redes de Petri (TM432)",
+        "Modelagem e Análise Formal de Processos de Negócio (TN722)"
       ]
     },
     {
@@ -358,6 +499,14 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
+      ],
+      "pre_requisitos": [
+        "Estruturas de Dados I (TN711)",
+        "Lógica (TN709)"
+      ],
+      "prende": [
+        "Mineração de Dados (TM434)",
+        "Busca e Recuperação de Informação (TM444)"
       ]
     },
     {
@@ -372,6 +521,12 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
+      ],
+      "pre_requisitos": [
+        "Programação Orientada a Objetos (TN717)"
+      ],
+      "prende": [
+        "Compiladores (TN725)"
       ]
     },
     {
@@ -386,6 +541,10 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
+      ],
+      "pre_requisitos": [],
+      "prende": [
+        "Compiladores (TN725)"
       ]
     },
     {
@@ -401,7 +560,11 @@
       "oferta": [
         "1º semestre",
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Cálculo II (IM404)"
+      ],
+      "prende": []
     },
     {
       "id": "modelagem-e-projeto-de-software",
@@ -415,6 +578,14 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
+      ],
+      "pre_requisitos": [
+        "Engenharia de Software I (TN710)"
+      ],
+      "prende": [
+        "Arquitetura de Software (TN721)",
+        "Modelagem de Software com Redes de Petri (TM432)",
+        "Modelagem e Análise Formal de Processos de Negócio (TN722)"
       ]
     },
     {
@@ -429,6 +600,13 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
+      ],
+      "pre_requisitos": [
+        "Álgebra Linear (IM429)"
+      ],
+      "prende": [
+        "Otimização Combinatória (TN750)",
+        "Introdução à Pesquisa Operacional (TN738)"
       ]
     },
     {
@@ -443,6 +621,11 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
+      ],
+      "pre_requisitos": [],
+      "prende": [
+        "Redes de Computadores Sem Fio (TM430)",
+        "Roteamento em Redes de Computadores (TN744)"
       ]
     },
     {
@@ -457,6 +640,16 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
+      ],
+      "pre_requisitos": [
+        "Arquitetura de Computadores (TN712)"
+      ],
+      "prende": [
+        "Programação Paralela e Distribuída (TM435)",
+        "Computação de Alto Desempenho (TN741)",
+        "Algoritmos Paralelos e Distribuídos (TM436)",
+        "Programação em GPU (TN742)",
+        "Introdução a Dispositivos Móveis (TN743)"
       ]
     },
     {
@@ -471,7 +664,11 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Matemática Discreta (TN705)"
+      ],
+      "prende": []
     },
     {
       "id": "topicos-especiais-em-grafos-e-algoritmos",
@@ -485,7 +682,11 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Grafos e Algoritmos (TN718)"
+      ],
+      "prende": []
     },
     {
       "id": "topicos-especiais-em-otimizacao",
@@ -499,6 +700,12 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
+      ],
+      "pre_requisitos": [
+        "Programação Orientada a Objetos (TN717)"
+      ],
+      "prende": [
+        "Introdução a Biologia Computacional (TN737)"
       ]
     },
     {
@@ -513,7 +720,11 @@
       "carga_horaria": 60,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [
+        "Otimização Linear (TN728)"
+      ],
+      "prende": []
     },
     {
       "id": "introducao-a-pesquisa-operacional",
@@ -527,7 +738,11 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Otimização Linear (TN728)"
+      ],
+      "prende": []
     },
     {
       "id": "teoria-dos-jogos-algoritmica",
@@ -541,7 +756,11 @@
       "carga_horaria": 60,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [
+        "Programação Orientada a Objetos (TN717)"
+      ],
+      "prende": []
     },
     {
       "id": "introducao-a-biologia-computacional",
@@ -555,7 +774,11 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Tópicos Especiais em Otimização (TN751)"
+      ],
+      "prende": []
     },
     {
       "id": "introducao-aos-sistemas-de-informacao",
@@ -569,7 +792,9 @@
       "carga_horaria": 60,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [],
+      "prende": []
     },
     {
       "id": "engenharia-de-software-2",
@@ -583,7 +808,11 @@
       "carga_horaria": 60,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [
+        "Engenharia de Software I (TN710)"
+      ],
+      "prende": []
     },
     {
       "id": "arquitetura-de-software",
@@ -597,7 +826,12 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Modelagem e Projeto de Software (TN716)",
+        "Engenharia de Software I (TN710)"
+      ],
+      "prende": []
     },
     {
       "id": "engenharia-de-requisitos",
@@ -611,7 +845,11 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Engenharia de Software I (TN710)"
+      ],
+      "prende": []
     },
     {
       "id": "interacao-humano-computador",
@@ -625,7 +863,11 @@
       "carga_horaria": 60,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [
+        "Engenharia de Software I (TN710)"
+      ],
+      "prende": []
     },
     {
       "id": "gerencia-de-projetos",
@@ -640,7 +882,11 @@
       "oferta": [
         "1º semestre",
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Engenharia de Software I (TN710)"
+      ],
+      "prende": []
     },
     {
       "id": "medicao-e-qualidade-de-software",
@@ -654,7 +900,11 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Engenharia de Software I (TN710)"
+      ],
+      "prende": []
     },
     {
       "id": "gestao-de-processos",
@@ -668,7 +918,11 @@
       "carga_horaria": 60,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [
+        "Engenharia de Software I (TN710)"
+      ],
+      "prende": []
     },
     {
       "id": "introducao-a-engenharia-de-software-experimental",
@@ -682,7 +936,9 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
-      ]
+      ],
+      "pre_requisitos": [],
+      "prende": []
     },
     {
       "id": "governanca-de-tecnologia-da-informacao",
@@ -696,7 +952,9 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [],
+      "prende": []
     },
     {
       "id": "empreendedorismo-em-informatica",
@@ -710,7 +968,9 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
-      ]
+      ],
+      "pre_requisitos": [],
+      "prende": []
     },
     {
       "id": "banco-de-dados-2",
@@ -724,7 +984,11 @@
       "carga_horaria": 60,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [
+        "Estruturas de Dados I (TN711)"
+      ],
+      "prende": []
     },
     {
       "id": "introducao-a-web-semantica",
@@ -738,7 +1002,11 @@
       "carga_horaria": 60,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [
+        "Banco de Dados (TN727)"
+      ],
+      "prende": []
     },
     {
       "id": "inteligencia-de-negocios",
@@ -752,7 +1020,11 @@
       "carga_horaria": 60,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [
+        "Banco de Dados (TN727)"
+      ],
+      "prende": []
     },
     {
       "id": "introducao-a-teoria-das-redes-de-petri",
@@ -766,7 +1038,12 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Álgebra Linear (IM429)",
+        "Grafos e Algoritmos (TN718)"
+      ],
+      "prende": []
     },
     {
       "id": "modelagem-de-software-com-redes-de-petri",
@@ -780,7 +1057,12 @@
       "carga_horaria": 60,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [
+        "Modelagem e Projeto de Software (TN716)",
+        "Grafos e Algoritmos (TN718)"
+      ],
+      "prende": []
     },
     {
       "id": "modelagem-e-analise-formal-de-processos-de-negocio",
@@ -794,7 +1076,12 @@
       "carga_horaria": 60,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [
+        "Modelagem e Projeto de Software (TN716)",
+        "Grafos e Algoritmos (TN718)"
+      ],
+      "prende": []
     },
     {
       "id": "programacao-paralela-e-distribuida",
@@ -808,7 +1095,12 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Arquitetura de Computadores (TN712)",
+        "Sistemas Operacionais (IM868)"
+      ],
+      "prende": []
     },
     {
       "id": "computacao-de-alto-desempenho",
@@ -822,7 +1114,12 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Arquitetura de Computadores (TN712)",
+        "Sistemas Operacionais (IM868)"
+      ],
+      "prende": []
     },
     {
       "id": "algoritmos-paralelos-e-distribuidos",
@@ -836,7 +1133,12 @@
       "carga_horaria": 60,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [
+        "Arquitetura de Computadores (TN712)",
+        "Sistemas Operacionais (IM868)"
+      ],
+      "prende": []
     },
     {
       "id": "programacao-em-gpu",
@@ -850,7 +1152,12 @@
       "carga_horaria": 60,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [
+        "Arquitetura de Computadores (TN712)",
+        "Sistemas Operacionais (IM868)"
+      ],
+      "prende": []
     },
     {
       "id": "arquitetura-de-computadores-2",
@@ -864,7 +1171,11 @@
       "carga_horaria": 60,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [
+        "Arquitetura de Computadores (TN712)"
+      ],
+      "prende": []
     },
     {
       "id": "introducao-a-dispositivos-moveis",
@@ -878,7 +1189,11 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Sistemas Operacionais (IM868)"
+      ],
+      "prende": []
     },
     {
       "id": "redes-de-computadores-sem-fio",
@@ -892,7 +1207,11 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Redes e Sistemas Distribuídos (TN729)"
+      ],
+      "prende": []
     },
     {
       "id": "roteamento-em-redes-de-computadores",
@@ -906,7 +1225,11 @@
       "carga_horaria": 60,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [
+        "Redes e Sistemas Distribuídos (TN729)"
+      ],
+      "prende": []
     },
     {
       "id": "aprendizado-de-maquina",
@@ -921,6 +1244,16 @@
       "oferta": [
         "1º semestre",
         "2º semestre"
+      ],
+      "pre_requisitos": [
+        "Cálculo II (IM404)",
+        "Álgebra Linear Computacional (IM478)",
+        "Probabilidade e Estatística para Ciência da Computação (IM859)"
+      ],
+      "prende": [
+        "Redes Neurais Artificiais (TN746)",
+        "Processamento de Linguagem Natural (TM441)",
+        "Introdução à Teoria de Sistemas de Recomendação (TM429)"
       ]
     },
     {
@@ -935,7 +1268,11 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Aprendizado de Máquina (TN745)"
+      ],
+      "prende": []
     },
     {
       "id": "mineracao-de-dados",
@@ -949,7 +1286,11 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Inteligência Artificial (TN724)"
+      ],
+      "prende": []
     },
     {
       "id": "processamento-de-linguagem-natural",
@@ -963,7 +1304,11 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Aprendizado de Máquina (TN745)"
+      ],
+      "prende": []
     },
     {
       "id": "processamento-de-imagens",
@@ -977,7 +1322,11 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Álgebra Linear (IM429)"
+      ],
+      "prende": []
     },
     {
       "id": "introducao-a-teoria-de-sistemas-de-recomendacao",
@@ -991,7 +1340,11 @@
       "carga_horaria": 60,
       "oferta": [
         "1º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Aprendizado de Máquina (TN745)"
+      ],
+      "prende": []
     },
     {
       "id": "busca-e-recuperacao-de-informacao",
@@ -1005,7 +1358,11 @@
       "carga_horaria": 60,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [
+        "Inteligência Artificial (TN724)"
+      ],
+      "prende": []
     },
     {
       "id": "lingua-brasileira-de-sinais",
@@ -1019,7 +1376,9 @@
       "carga_horaria": 30,
       "oferta": [
         "❌"
-      ]
+      ],
+      "pre_requisitos": [],
+      "prende": []
     },
     {
       "id": "cultura-afro-brasileira-e-africana",
@@ -1033,7 +1392,9 @@
       "carga_horaria": 30,
       "oferta": [
         "2º semestre"
-      ]
+      ],
+      "pre_requisitos": [],
+      "prende": []
     }
   ]
 }
